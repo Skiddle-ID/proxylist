@@ -35,8 +35,8 @@ jobs:
     - run: protractor conf.js
     - name: Commit files
       run: |
-        git config --local user.email "418160487326+Skiddle-Git@users.noreply.github.com"
-        git config --local user.name "Skiddle Git Assistant"
+        git config --local user.email "160487326+Skiddle-Git@users.noreply.github.com"
+        git config --local user.name "Skiddle-Git"
         git commit -a -m "Updated Proxies"
     - name: Push changes
       uses: ad-m/github-push-action@master
