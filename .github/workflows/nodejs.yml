@@ -4,8 +4,13 @@
 name: Proxy Update Job
 
 on:
-  repository_dispatch:
-    types: [update_proxy]
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+  schedule:
+    - cron: '*/10 * * * *'
 
 jobs:
   build:
