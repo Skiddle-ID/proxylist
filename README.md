@@ -1,9 +1,9 @@
 # ⭐️ A proxy scraper made using Protractor | Proxy list - Updates every 3 hours 🔥
 
-[![Every 10 Minutes Update](https://github.com/sunny9577/proxy-scraper/actions/workflows/nodejs.yml/badge.svg?branch=master)](https://github.com/sunny9577/proxy-scraper/actions/workflows/nodejs.yml)
-![GitHub](https://img.shields.io/github/license/sunny9577/proxy-scraper)
-![GitHub last commit](https://img.shields.io/github/last-commit/sunny9577/proxy-scraper)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/sunny9577/proxy-scraper/graphs/commit-activity)
+[![Every 10 Minutes Update](https://github.com/Skiddle-ID/proxylist/actions/workflows/nodejs.yml/badge.svg?branch=master)](https://github.com/Skiddle-ID/proxylist/actions/workflows/nodejs.yml)
+![GitHub](https://img.shields.io/github/license/Skiddle-ID/proxylist)
+![GitHub last commit](https://img.shields.io/github/last-commit/Skiddle-ID/proxylist)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Skiddle-ID/proxylist/graphs/commit-activity)
 [![Website sunny9577.github.io](https://img.shields.io/website-up-down-green-red/http/github.io.svg)](https://sunny9577.github.io/)
 [![made-with-nodejs](https://img.shields.io/badge/Made%20with-Nodejs-green.svg)](https://www.nodejs.org/)
 
@@ -17,41 +17,41 @@
 
 TXT
 
-    curl "https://sunny9577.github.io/proxy-scraper/proxies.txt" > proxies.txt
+    curl "https://skiddle-id.github.io/proxylist/proxies.txt" > proxies.txt
 
 JSON
 
-    curl "https://sunny9577.github.io/proxy-scraper/proxies.json" > proxies.json
+    curl "https://skiddle-id.github.io/proxylist/proxies.json" > proxies.json
 
 CSV
 
-    curl "https://sunny9577.github.io/proxy-scraper/proxies.csv" > proxies.csv
+    curl "https://skiddle-id.github.io/proxylist/proxies.csv" > proxies.csv
 
 YAML
 
 
-    curl "https://sunny9577.github.io/proxy-scraper/proxies.yaml" > proxies.yaml
+    curl "https://skiddle-id.github.io/proxylist/proxies.yaml" > proxies.yaml
 
 XML
 
 
-    curl "https://sunny9577.github.io/proxy-scraper/proxies.xml" > proxies.xml
+    curl "https://skiddle-id.github.io/proxylist/proxies.xml" > proxies.xml
 
 ## Quick Access - By Type
 ###### Supported formats: txt | json | csv | yaml | xml
 
 SOCKS5
 
-    curl "https://sunny9577.github.io/proxy-scraper/generated/socks5_proxies.txt" > socks5_proxies.txt
+    curl "https://skiddle-id.github.io/proxylist/generated/socks5_proxies.txt" > socks5_proxies.txt
 
 
 SOCKS4
 
-    curl "https://sunny9577.github.io/proxy-scraper/generated/socks4_proxies.txt" > socks4_proxies.txt
+    curl "https://skiddle-id.github.io/proxylist/generated/socks4_proxies.txt" > socks4_proxies.txt
 
 HTTP(S)
 
-    curl "https://sunny9577.github.io/proxy-scraper/generated/http_proxies.txt" > http_proxies.txt
+    curl "https://skiddle-id.github.io/proxylist/generated/http_proxies.txt" > http_proxies.txt
 
 
 ## Setup Requirements
@@ -143,4 +143,4 @@ This repository is intended solely for educational purposes. I neither endorse n
 
 [MIT](LICENSE)
 
-[![Stargazers over time](https://starchart.cc/sunny9577/proxy-scraper.svg)](https://starchart.cc/Naereen/badges)
+[![Stargazers over time](https://starchart.cc/Skiddle-ID/proxylist.svg)](https://starchart.cc/Naereen/badges)
