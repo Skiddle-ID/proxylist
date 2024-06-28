@@ -63,8 +63,8 @@
 187.50.29.242,8080,Brazil - Itirapina,Transparent,HTTP/HTTPS
 45.171.242.3,8083,Brazil - Atibaia,Transparent,HTTP/HTTPS
 45.174.176.161,8088,Brazil - Sao Francisco do Piaui,Transparent,HTTP/HTTPS
-201.20.65.234,9896,Brazil - Saboeiro,Transparent,HTTP/HTTPS
 177.37.160.81,8080,Brazil - Juazeiro do Norte,Transparent,HTTP/HTTPS
+201.20.65.234,9896,Brazil - Saboeiro,Transparent,HTTP/HTTPS
 192.140.42.83,31511,Brazil - Boa Vista,Elite,HTTP/HTTPS
 177.11.190.84,8080,Brazil - Nuporanga,Transparent,HTTP/HTTPS
 168.205.100.36,8080,Brazil - Rio de Janeiro,Transparent,HTTP/HTTPS
@@ -73,6 +73,10 @@
 45.230.49.2,999,Chile - Talagante,Transparent,HTTP/HTTPS
 45.230.50.3,999,Chile - Talagante,Transparent,HTTP/HTTPS
 45.170.102.89,999,Chile - Buin,Transparent,HTTP/HTTPS
+8.134.166.102,8080,China - Guangzhou,Transparent,HTTP/HTTPS
+47.94.157.243,3389,China - Beijing,Transparent,HTTP/HTTPS
+39.191.223.9,3128,China - Lishui,Elite,HTTP/HTTPS
+125.77.25.177,8090,China - Fuzhou,Elite,HTTP/HTTPS
 47.93.121.200,80,China - Beijing,Elite,HTTP/HTTPS
 221.224.25.37,3128,China,Elite,HTTP/HTTPS
 112.5.61.134,3128,China,Transparent,HTTP/HTTPS
@@ -84,7 +88,6 @@
 118.190.142.208,80,China - Qingdao,Anonymous,HTTP/HTTPS
 60.188.102.225,18080,China,Elite,HTTP/HTTPS
 47.100.254.82,80,China - Shanghai,Elite,HTTP/HTTPS
-125.77.25.177,8090,China - Fuzhou,Elite,HTTP/HTTPS
 183.236.123.242,8060,China - Guangzhou,Elite,HTTP/HTTPS
 121.8.215.106,9797,China - Guangzhou,Transparent,HTTP/HTTPS
 47.93.249.121,8118,China - Beijing,Elite,HTTP/HTTPS
@@ -97,17 +100,14 @@
 118.178.232.189,443,China - Hangzhou,Elite,HTTP/HTTPS
 58.20.248.139,9002,China,Elite,HTTP/HTTPS
 114.115.130.225,3128,China,Transparent,HTTP/HTTPS
-114.232.110.25,8888,China,Elite,HTTP/HTTPS
+114.232.110.250,8888,China,Elite,HTTP/HTTPS
 114.231.82.252,8888,China,Elite,HTTP/HTTPS
-114.232.110.170,8888,China - Shanghai,Elite,HTTP/HTTPS
+114.232.110.17,8888,China - Shanghai,Elite,HTTP/HTTPS
 182.92.3.110,8118,China - Beijing,Elite,HTTP/HTTPS
 117.81.93.62,8118,China - Hangzhou,Elite,HTTP/HTTPS
 39.105.27.30,3128,China - Beijing,Transparent,HTTP/HTTPS
-112.19.241.37,19999,China,Elite,HTTP/HTTPS
-58.210.227.210,8088,China,Transparent,HTTP/HTTPS
-111.160.204.146,9091,China,Elite,HTTP/HTTPS
-183.215.23.242,9091,China - Xiangtan,Elite,HTTP/HTTPS
 223.113.80.158,9091,China,Elite,HTTP/HTTPS
+112.19.241.37,19999,China,Elite,HTTP/HTTPS
 190.97.94.2,999,Colombia - Pradera,Transparent,HTTP/HTTPS
 131.100.48.124,999,Colombia - Neiva,Transparent,HTTP/HTTPS
 181.78.3.170,999,Colombia - Medellín,Transparent,HTTP/HTTPS
@@ -162,10 +162,13 @@
 62.23.184.84,8080,France - Paris,Transparent,HTTP/HTTPS
 51.159.66.158,3128,France - Paris,Transparent,HTTP/HTTPS
 62.210.15.199,80,France,Elite,HTTP/HTTPS
-62.210.37.74,8012,France - Paris,Elite,HTTP/HTTPS
+91.65.103.3,80,Germany - Berlin,Elite,HTTP/HTTPS
+89.22.120.116,80,Germany,Anonymous,HTTP/HTTPS
+49.13.252.196,80,Germany - Nuremberg,Transparent,HTTP/HTTPS
+162.55.40.2,80,Germany - Hachenburg,Transparent,HTTP/HTTPS
 146.190.177.143,80,Germany - Frankfurt am Main,Elite,HTTP/HTTPS
-18.185.169.150,3128,Germany - Frankfurt am Main,Elite,HTTP/HTTPS
 3.123.150.192,3128,Germany - Frankfurt am Main,Elite,HTTP/HTTPS
+18.185.169.150,3128,Germany - Frankfurt am Main,Elite,HTTP/HTTPS
 3.127.62.252,80,Germany - Frankfurt am Main,Elite,HTTP/HTTPS
 95.111.238.142,3128,Germany - Nuremberg,Transparent,HTTP/HTTPS
 136.243.125.1,1369,Germany - Mehlingen,Transparent,HTTP/HTTPS
@@ -190,9 +193,8 @@
 138.201.199.62,8080,Germany,Elite,HTTP/HTTPS
 156.67.172.185,3128,Germany - Hörstel,Anonymous,HTTP/HTTPS
 161.97.131.23,8899,Germany - Düsseldorf,Anonymous,HTTP/HTTPS
-89.22.120.116,80,Germany,Anonymous,HTTP/HTTPS
 47.238.192.169,9999,Hong Kong - Hong Kong,Elite,HTTP/HTTPS
-163.181.117.60,80,Hong Kong - Hong Kong,Elite,HTTP/HTTPS
+163.181.117.6,80,Hong Kong - Hong Kong,Elite,HTTP/HTTPS
 182.16.25.27,80,Hong Kong,Transparent,HTTP/HTTPS
 20.205.61.143,80,Hong Kong - Hong Kong,Elite,HTTP/HTTPS
 20.205.61.143,8123,Hong Kong - Hong Kong,Elite,HTTP/HTTPS
@@ -220,21 +222,22 @@
 103.203.173.49,84,India - Hyderabad,Transparent,HTTP/HTTPS
 13.234.24.116,3128,India - Mumbai,Elite,HTTP/HTTPS
 219.65.42.161,80,India - Gurugram,Transparent,HTTP/HTTPS
-13.234.24.116,1080,India - Mumbai,Elite,HTTP/HTTPS
 103.239.175.90,1111,India,Transparent,HTTP/HTTPS
+13.234.24.116,1080,India - Mumbai,Elite,HTTP/HTTPS
 103.87.169.166,32650,India - Jaipur,Transparent,HTTP/HTTPS
-103.48.71.130,84,India - Hyderabad,Transparent,HTTP/HTTPS
 103.159.47.42,84,India - Ahmedabad,Transparent,HTTP/HTTPS
+103.48.71.130,84,India - Hyderabad,Transparent,HTTP/HTTPS
 122.10.225.55,8000,India - Hyderabad,Elite,HTTP/HTTPS
-113.212.87.25,82,India - Ahmedabad,Transparent,HTTP/HTTPS
+113.212.87.250,82,India - Ahmedabad,Transparent,HTTP/HTTPS
 103.87.169.206,32650,India - Jaipur,Transparent,HTTP/HTTPS
 103.124.175.2,83,India - Samālkha,Transparent,HTTP/HTTPS
 219.65.42.165,80,India - Ghaziabad,Transparent,HTTP/HTTPS
 103.87.169.154,32650,India - Jaipur,Transparent,HTTP/HTTPS
 103.134.251.203,32650,India - Siwāni,Transparent,HTTP/HTTPS
 180.179.35.244,9889,India,Transparent,HTTP/HTTPS
-122.175.19.164,80,India - Hyderabad,Elite,HTTP/HTTPS
 114.79.146.166,8080,India - Mumbai,Transparent,HTTP/HTTPS
+122.175.19.164,80,India - Hyderabad,Elite,HTTP/HTTPS
+103.169.254.9,8090,Indonesia - Sidoarjo,Transparent,HTTP/HTTPS
 202.179.184.66,8080,Indonesia - Jambi City,Transparent,HTTP/HTTPS
 210.247.253.128,3128,Indonesia,Transparent,HTTP/HTTPS
 103.169.254.186,8061,Indonesia - Banyuwangi,Anonymous,HTTP/HTTPS
@@ -269,7 +272,6 @@
 103.186.90.49,7777,Indonesia - Jepara,Transparent,HTTP/HTTPS
 210.247.253.205,3128,Indonesia,Transparent,HTTP/HTTPS
 210.247.253.174,3128,Indonesia,Transparent,HTTP/HTTPS
-103.165.58.109,64999,Indonesia,Transparent,HTTP/HTTPS
 160.248.80.91,8080,Japan,Elite,HTTP/HTTPS
 160.248.80.91,137,Japan,Elite,HTTP/HTTPS
 160.86.242.23,8080,Japan - Osaka,Elite,HTTP/HTTPS
@@ -288,11 +290,11 @@
 133.232.90.155,80,Japan,Elite,HTTP/HTTPS
 122.210.119.110,32323,Japan - Yokohama,Elite,HTTP/HTTPS
 161.34.39.156,3128,Japan - Higashifunabashi,Transparent,HTTP/HTTPS
-122.222.186.86,8080,Japan - Araichō,Transparent,HTTP/HTTPS
 161.34.40.114,3128,Japan - Higashifunabashi,Transparent,HTTP/HTTPS
 161.34.37.93,3128,Japan - Higashifunabashi,Transparent,HTTP/HTTPS
+122.222.186.86,8080,Japan - Araichō,Transparent,HTTP/HTTPS
 161.34.40.115,3128,Japan - Higashifunabashi,Transparent,HTTP/HTTPS
-160.248.184.170,3128,Japan,Transparent,HTTP/HTTPS
+160.248.184.17,3128,Japan,Transparent,HTTP/HTTPS
 161.34.35.226,3128,Japan - Higashifunabashi,Transparent,HTTP/HTTPS
 161.34.40.112,3128,Japan - Higashifunabashi,Transparent,HTTP/HTTPS
 103.37.111.253,18081,Japan,Transparent,HTTP/HTTPS
@@ -300,7 +302,6 @@
 160.16.105.145,8080,Japan - Tokyo,Transparent,HTTP/HTTPS
 13.208.168.179,3128,Japan - Osaka,Elite,HTTP/HTTPS
 160.248.80.91,80,Japan,Elite,HTTP/HTTPS
-140.227.228.202,10101,Japan,Elite,HTTP/HTTPS
 41.89.225.225,3128,Kenya - Nairobi,Anonymous,HTTP/HTTPS
 197.232.85.163,8080,Kenya - Nairobi,Transparent,HTTP/HTTPS
 151.236.14.178,18080,Netherlands,Transparent,HTTP/HTTPS
@@ -311,7 +312,6 @@
 83.98.243.181,80,Netherlands - 's-Hertogenbosch,Elite,HTTP/HTTPS
 167.71.73.206,3128,Netherlands - Amsterdam,Transparent,HTTP/HTTPS
 93.115.18.235,8118,Netherlands - Dronten,Elite,HTTP/HTTPS
-13.81.217.201,80,Netherlands - Amsterdam,Elite,HTTP/HTTPS
 178.212.51.145,41258,Poland - Sieniawa,Elite,HTTP/HTTPS
 185.49.31.207,8081,Poland - Wroclaw,Elite,HTTP/HTTPS
 212.127.93.185,8081,Poland - Wroclaw,Elite,HTTP/HTTPS
@@ -319,10 +319,11 @@
 185.49.31.205,8080,Poland - Wroclaw,Elite,HTTP/HTTPS
 83.12.149.202,8080,Poland - Olsztyn,Transparent,HTTP/HTTPS
 212.127.78.23,39811,Poland,Transparent,HTTP/HTTPS
+109.63.189.213,80,Russia - Moscow,Elite,HTTP/HTTPS
 95.66.138.21,8880,Russia,Elite,HTTP/HTTPS
 93.157.248.108,88,Russia - Kazan',Elite,HTTP/HTTPS
 80.66.81.46,4000,Russia - Moscow,Elite,HTTP/HTTPS
-46.47.197.21,3128,Russia,Elite,HTTP/HTTPS
+46.47.197.210,3128,Russia,Elite,HTTP/HTTPS
 91.185.40.185,8080,Russia - Irkutsk,Transparent,HTTP/HTTPS
 89.208.30.217,8080,Russia,Elite,HTTP/HTTPS
 188.235.0.207,8181,Russia - Voronezh,Anonymous,HTTP/HTTPS
@@ -336,7 +337,6 @@
 89.188.110.196,8080,Russia,Elite,HTTP/HTTPS
 80.91.27.209,3128,Russia - Tyumen,Transparent,HTTP/HTTPS
 195.211.219.147,5555,Russia - St Petersburg,Transparent,HTTP/HTTPS
-109.63.189.213,80,Russia - Moscow,Elite,HTTP/HTTPS
 88.200.195.120,80,Russia - Samara,Elite,HTTP/HTTPS
 45.80.207.212,8080,Russia - Moscow,Transparent,HTTP/HTTPS
 62.205.169.74,53281,Russia,Elite,HTTP/HTTPS
@@ -352,7 +352,7 @@
 188.187.112.19,8111,Russia - St Petersburg,Anonymous,HTTP/HTTPS
 176.194.189.40,80,Russia - Belgorod,Transparent,HTTP/HTTPS
 185.57.237.32,4411,Russia - Yablonitsy,Transparent,HTTP/HTTPS
-95.78.169.6,28080,Russia - Chelyabinsk,Transparent,HTTP/HTTPS
+95.78.169.60,28080,Russia - Chelyabinsk,Transparent,HTTP/HTTPS
 37.204.209.198,8080,Russia - Moscow,Transparent,HTTP/HTTPS
 91.148.126.189,8080,Serbia,Elite,HTTP/HTTPS
 91.148.127.162,8080,Serbia,Elite,HTTP/HTTPS
@@ -369,7 +369,6 @@
 222.111.18.67,80,South Korea - Nowon-gu,Elite,HTTP/HTTPS
 211.253.36.172,5001,South Korea - Wŏnju,Transparent,HTTP/HTTPS
 118.42.113.37,443,South Korea - Daejeon,Elite,HTTP/HTTPS
-175.213.76.24,80,South Korea - Goyang-si,Elite,HTTP/HTTPS
 106.105.118.250,80,Taiwan - Taichung,Elite,HTTP/HTTPS
 122.116.150.2,9000,Taiwan - New Taipei,Elite,HTTP/HTTPS
 106.105.218.244,80,Taiwan - Tainan City,Elite,HTTP/HTTPS
@@ -390,7 +389,6 @@
 110.78.164.224,8888,Thailand - Bangkok,Transparent,HTTP/HTTPS
 182.53.50.2,3128,Thailand - Lat Bua Luang,Transparent,HTTP/HTTPS
 180.180.218.250,8080,Thailand - Kut Bak,Transparent,HTTP/HTTPS
-1.179.231.130,8080,Thailand,Transparent,HTTP/HTTPS
 5.58.25.124,8080,Ukraine - Ternopil,Transparent,HTTP/HTTPS
 91.238.105.56,8080,Ukraine,Transparent,HTTP/HTTPS
 31.43.158.108,8888,Ukraine - Kyiv,Elite,HTTP/HTTPS
@@ -405,16 +403,15 @@
 5.58.97.89,8080,Ukraine - Ternopil,Transparent,HTTP/HTTPS
 92.249.113.194,55443,Ukraine - Kyiv,Elite,HTTP/HTTPS
 195.34.91.67,8080,Ukraine - Kyiv,Transparent,HTTP/HTTPS
-159.224.232.194,8888,Ukraine - Dnipro,Elite,HTTP/HTTPS
+46.250.233.51,3128,United Kingdom - London,Transparent,HTTP/HTTPS
 46.17.63.166,16379,United Kingdom - Bristol,Transparent,HTTP/HTTPS
 213.218.228.253,80,United Kingdom,Elite,HTTP/HTTPS
 8.208.53.236,60000,United Kingdom - London,Elite,HTTP/HTTPS
 3.9.71.167,3128,United Kingdom - London,Elite,HTTP/HTTPS
 13.40.239.130,3128,United Kingdom - London,Elite,HTTP/HTTPS
 3.10.93.50,3128,United Kingdom - London,Elite,HTTP/HTTPS
-46.250.233.51,3128,United Kingdom - London,Transparent,HTTP/HTTPS
-51.89.73.162,80,United Kingdom - London,Elite,HTTP/HTTPS
 51.89.14.70,80,United Kingdom - London,Elite,HTTP/HTTPS
+51.89.73.162,80,United Kingdom - London,Elite,HTTP/HTTPS
 18.133.16.21,1080,United Kingdom - London,Elite,HTTP/HTTPS
 51.89.135.169,8080,United Kingdom,Transparent,HTTP/HTTPS
 51.89.135.171,8080,United Kingdom,Transparent,HTTP/HTTPS
@@ -423,7 +420,12 @@
 57.128.159.224,8005,United Kingdom,Transparent,HTTP/HTTPS
 38.60.196.242,3128,United Kingdom - London,Transparent,HTTP/HTTPS
 83.126.54.155,8080,United Kingdom,Transparent,HTTP/HTTPS
-185.222.115.105,31280,United Kingdom,Transparent,HTTP/HTTPS
+167.102.133.106,80,United States - Baltimore,Anonymous,HTTP/HTTPS
+128.199.12.12,80,United States - Santa Clara,Elite,HTTP/HTTPS
+192.169.179.253,56111,United States,Elite,HTTP/HTTPS
+167.102.133.105,80,United States - Baltimore,Anonymous,HTTP/HTTPS
+167.102.133.111,80,United States - Baltimore,Anonymous,HTTP/HTTPS
+143.110.232.177,80,United States - Santa Clara,Elite,HTTP/HTTPS
 156.232.9.194,8080,United States,Transparent,HTTP/HTTPS
 173.255.119.18,80,United States - Council Bluffs,Elite,HTTP/HTTPS
 45.22.209.157,8888,United States - Miami Beach,Anonymous,HTTP/HTTPS
@@ -434,31 +436,25 @@
 20.119.77.88,8123,United States - Washington,Elite,HTTP/HTTPS
 52.13.248.29,3128,United States - Boardman,Elite,HTTP/HTTPS
 54.67.125.45,3128,United States - San Jose,Elite,HTTP/HTTPS
-192.73.244.36,80,United States - Portland,Elite,HTTP/HTTPS
 43.153.75.22,80,United States,Anonymous,HTTP/HTTPS
+192.73.244.36,80,United States - Portland,Elite,HTTP/HTTPS
 54.152.3.36,80,United States - Ashburn,Elite,HTTP/HTTPS
 204.236.176.61,80,United States - San Jose,Elite,HTTP/HTTPS
 54.212.22.168,1080,United States - Boardman,Elite,HTTP/HTTPS
 198.74.51.79,8888,United States - Fremont,Elite,HTTP/HTTPS
-216.246.40.215,8999,United States - Ashburn,Anonymous,HTTP/HTTPS
-167.102.133.106,80,United States - Baltimore,Anonymous,HTTP/HTTPS
 47.90.205.231,33333,United States,Elite,HTTP/HTTPS
 154.16.146.42,80,United States - Buffalo,Elite,HTTP/HTTPS
-178.128.155.19,80,United States - North Bergen,Elite,HTTP/HTTPS
-154.85.58.149,80,United States - Los Angeles,Transparent,HTTP/HTTPS
-172.245.10.130,34567,United States - Buffalo,Elite,HTTP/HTTPS
-184.169.154.119,80,United States - San Jose,Elite,HTTP/HTTPS
-3.21.101.158,3128,United States - Columbus,Elite,HTTP/HTTPS
-3.90.100.12,3128,United States - Ashburn,Elite,HTTP/HTTPS
-3.212.148.199,3128,United States - Ashburn,Elite,HTTP/HTTPS
-3.12.144.146,3128,United States - Columbus,Elite,HTTP/HTTPS
-3.129.184.21,80,United States - Columbus,Elite,HTTP/HTTPS
-167.102.133.111,80,United States - Baltimore,Anonymous,HTTP/HTTPS
-162.245.85.22,80,United States - Buffalo,Elite,HTTP/HTTPS
-18.223.25.15,80,United States - Columbus,Elite,HTTP/HTTPS
+216.246.40.215,8999,United States - Ashburn,Anonymous,HTTP/HTTPS
+154.16.146.45,80,United States - Denver,Elite,HTTP/HTTPS
+3.129.184.210,80,United States - Columbus,Elite,HTTP/HTTPS
+204.236.137.68,80,United States - San Jose,Elite,HTTP/HTTPS
 44.195.247.145,80,United States - Ashburn,Elite,HTTP/HTTPS
-154.16.146.47,80,United States - Buffalo,Elite,HTTP/HTTPS
-13.56.192.187,80,United States - San Jose,Elite,HTTP/HTTPS
+18.223.25.15,80,United States - Columbus,Elite,HTTP/HTTPS
+184.169.154.119,80,United States - San Jose,Elite,HTTP/HTTPS
+162.245.85.220,80,United States - Buffalo,Elite,HTTP/HTTPS
+172.245.10.130,34567,United States - Buffalo,Elite,HTTP/HTTPS
+178.128.155.19,80,United States - North Bergen,Elite,HTTP/HTTPS
+154.16.146.46,80,United States - Denver,Elite,HTTP/HTTPS
 200.108.190.38,999,Venezuela - Guarenas,Transparent,HTTP/HTTPS
 200.108.190.34,999,Venezuela - Guarenas,Transparent,HTTP/HTTPS
 38.7.3.13,999,Venezuela - Maracaibo,Transparent,HTTP/HTTPS
@@ -470,7 +466,7 @@
 190.94.212.197,999,Venezuela - Caracas,Transparent,HTTP/HTTPS
 45.234.61.4,999,Venezuela,Transparent,HTTP/HTTPS
 188.136.155.254,7060,Iran,Transparent,HTTP/HTTPS
-81.12.40.25,8080,Iran,Transparent,HTTP/HTTPS
+81.12.40.250,8080,Iran,Transparent,HTTP/HTTPS
 37.255.135.210,8081,Iran - Isfahan,Transparent,HTTP/HTTPS
 46.209.217.108,8088,Iran,Elite,HTTP/HTTPS
 80.249.112.162,80,Iran,Transparent,HTTP/HTTPS
@@ -485,10 +481,11 @@
 188.132.209.245,80,Turkey - Istanbul,Elite,HTTP/HTTPS
 185.233.247.186,8080,Turkey - Reyhanlı,Transparent,HTTP/HTTPS
 188.132.222.38,8080,Turkey,Transparent,HTTP/HTTPS
+185.93.204.33,8080,Italy - Ragusa,Transparent,HTTP/HTTPS
 45.240.182.121,1981,Egypt - Cairo,Transparent,HTTP/HTTPS
 154.236.189.11,1981,Egypt - Giza,Elite,HTTP/HTTPS
 154.236.189.11,1976,Egypt - Giza,Elite,HTTP/HTTPS
-45.240.182.120,1976,Egypt - Cairo,Transparent,HTTP/HTTPS
+45.240.182.12,1976,Egypt - Cairo,Transparent,HTTP/HTTPS
 156.200.116.72,1981,Egypt - Al Ma`adi,Transparent,HTTP/HTTPS
 45.240.163.236,1981,Egypt - Cairo,Transparent,HTTP/HTTPS
 82.129.154.218,1981,Egypt,Transparent,HTTP/HTTPS
@@ -499,306 +496,306 @@
 92.247.2.26,21231,Bulgaria,Elite,HTTP/HTTPS
 88.80.103.9,6888,Bulgaria - Dupnitsa,Transparent,HTTP/HTTPS
 46.10.209.230,8080,Bulgaria - Sofia,Elite,HTTP/HTTPS
-50.174.7.162,80,anonymous,anonymous,HTTP/HTTPS
-171.224.39.185,12005,transparent,transparent,HTTP/HTTPS
-50.222.245.45,80,anonymous,anonymous,HTTP/HTTPS
-50.223.242.97,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.70,80,anonymous,anonymous,HTTP/HTTPS
-139.60.209.2,80,anonymous,anonymous,HTTP/HTTPS
-24.205.201.186,80,anonymous,anonymous,HTTP/HTTPS
-50.169.37.50,80,anonymous,anonymous,HTTP/HTTPS
-154.208.10.126,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.19,80,anonymous,anonymous,HTTP/HTTPS
-188.132.209.245,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.74,80,anonymous,anonymous,HTTP/HTTPS
-133.18.234.13,80,anonymous,anonymous,HTTP/HTTPS
-66.191.31.158,80,anonymous,anonymous,HTTP/HTTPS
-50.221.74.130,80,anonymous,anonymous,HTTP/HTTPS
-50.171.187.50,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.66,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.64,80,anonymous,anonymous,HTTP/HTTPS
-178.128.113.118,23128,anonymous,anonymous,HTTP/HTTPS
-50.223.246.237,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.156,80,anonymous,anonymous,HTTP/HTTPS
-211.128.96.206,80,anonymous,anonymous,HTTP/HTTPS
-41.207.187.178,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.16,80,anonymous,anonymous,HTTP/HTTPS
-50.168.7.250,80,anonymous,anonymous,HTTP/HTTPS
-47.56.110.204,8989,anonymous,anonymous,HTTP/HTTPS
-50.222.245.42,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.17,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.12,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.42,80,anonymous,anonymous,HTTP/HTTPS
-50.122.86.118,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.153,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.127,80,anonymous,anonymous,HTTP/HTTPS
-50.221.230.186,80,anonymous,anonymous,HTTP/HTTPS
-194.182.178.90,3128,anonymous,anonymous,HTTP/HTTPS
-50.175.212.76,80,anonymous,anonymous,HTTP/HTTPS
-176.65.240.15,80,anonymous,anonymous,HTTP/HTTPS
-195.12.191.2,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.47,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.43,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.96,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.152,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.124,80,anonymous,anonymous,HTTP/HTTPS
-50.172.39.98,80,anonymous,anonymous,HTTP/HTTPS
-35.185.196.38,3128,anonymous,anonymous,HTTP/HTTPS
-4.236.183.37,8080,anonymous,anonymous,HTTP/HTTPS
-50.223.239.185,80,anonymous,anonymous,HTTP/HTTPS
-51.254.78.223,80,anonymous,anonymous,HTTP/HTTPS
-190.58.248.86,80,anonymous,anonymous,HTTP/HTTPS
-127.0.0.7,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.177,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.79,80,anonymous,anonymous,HTTP/HTTPS
-82.119.96.254,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.72,80,anonymous,anonymous,HTTP/HTTPS
-50.202.75.26,80,anonymous,anonymous,HTTP/HTTPS
-64.227.4.244,8888,anonymous,anonymous,HTTP/HTTPS
-138.68.60.8,8080,anonymous,anonymous,HTTP/HTTPS
-194.219.134.234,80,anonymous,anonymous,HTTP/HTTPS
-163.181.117.60,80,anonymous,anonymous,HTTP/HTTPS
-47.74.152.29,8888,anonymous,anonymous,HTTP/HTTPS
-50.218.224.35,80,anonymous,anonymous,HTTP/HTTPS
-20.193.154.130,8888,anonymous,anonymous,HTTP/HTTPS
-68.178.203.69,8899,anonymous,anonymous,HTTP/HTTPS
-50.218.57.74,80,anonymous,anonymous,HTTP/HTTPS
-50.171.177.124,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.50,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.44,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.69,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.194,80,anonymous,anonymous,HTTP/HTTPS
-190.103.177.131,80,anonymous,anonymous,HTTP/HTTPS
-195.23.57.78,80,anonymous,anonymous,HTTP/HTTPS
-51.15.242.202,8888,anonymous,anonymous,HTTP/HTTPS
-123.30.154.171,7777,anonymous,anonymous,HTTP/HTTPS
-50.168.72.112,80,anonymous,anonymous,HTTP/HTTPS
-50.231.110.26,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.40,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.125,80,anonymous,anonymous,HTTP/HTTPS
-139.162.78.109,8080,anonymous,anonymous,HTTP/HTTPS
-50.223.239.183,80,anonymous,anonymous,HTTP/HTTPS
-36.2.73.231,80,anonymous,anonymous,HTTP/HTTPS
-116.203.28.43,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.117,80,anonymous,anonymous,HTTP/HTTPS
-80.228.235.6,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.10,80,anonymous,anonymous,HTTP/HTTPS
-85.8.68.2,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.168,80,anonymous,anonymous,HTTP/HTTPS
-50.223.246.226,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.11,80,anonymous,anonymous,HTTP/HTTPS
-198.44.255.5,80,anonymous,anonymous,HTTP/HTTPS
-213.33.126.130,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.165,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.8,80,anonymous,anonymous,HTTP/HTTPS
-50.146.203.174,80,anonymous,anonymous,HTTP/HTTPS
-213.143.113.82,80,anonymous,anonymous,HTTP/HTTPS
-161.35.70.249,3128,anonymous,anonymous,HTTP/HTTPS
-80.120.130.231,80,anonymous,anonymous,HTTP/HTTPS
-143.110.232.177,80,elite proxy,elite proxy,HTTP/HTTPS
-148.251.248.244,80,elite proxy,elite proxy,HTTP/HTTPS
-172.173.132.85,80,elite proxy,elite proxy,HTTP/HTTPS
-83.68.136.236,80,elite proxy,elite proxy,HTTP/HTTPS
-171.250.1.42,30021,elite proxy,elite proxy,HTTP/HTTPS
-77.41.146.44,8080,transparent,transparent,HTTP/HTTPS
-27.78.113.185,4602,transparent,transparent,HTTP/HTTPS
-42.112.97.60,12002,transparent,transparent,HTTP/HTTPS
-50.171.187.51,80,anonymous,anonymous,HTTP/HTTPS
-162.245.85.220,80,elite proxy,elite proxy,HTTP/HTTPS
-50.231.104.58,80,anonymous,anonymous,HTTP/HTTPS
-20.210.113.32,8123,elite proxy,elite proxy,HTTP/HTTPS
-50.207.199.86,80,anonymous,anonymous,HTTP/HTTPS
-62.99.138.162,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.118,80,anonymous,anonymous,HTTP/HTTPS
-50.223.38.6,80,anonymous,anonymous,HTTP/HTTPS
-50.171.122.30,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.47,80,anonymous,anonymous,HTTP/HTTPS
-96.113.158.126,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.159,80,anonymous,anonymous,HTTP/HTTPS
-189.202.188.149,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.175,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.119,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.173,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.43,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.99,80,anonymous,anonymous,HTTP/HTTPS
-213.33.2.28,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.154,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.44,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.113,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.106,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.80,80,anonymous,anonymous,HTTP/HTTPS
-50.144.168.74,80,anonymous,anonymous,HTTP/HTTPS
-32.223.6.94,80,anonymous,anonymous,HTTP/HTTPS
-171.236.133.93,12002,elite proxy,elite proxy,HTTP/HTTPS
-198.49.68.80,80,elite proxy,elite proxy,HTTP/HTTPS
-50.220.168.134,80,anonymous,anonymous,HTTP/HTTPS
-50.173.182.90,80,anonymous,anonymous,HTTP/HTTPS
-137.184.100.135,80,elite proxy,elite proxy,HTTP/HTTPS
-80.120.49.242,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.66,80,anonymous,anonymous,HTTP/HTTPS
-160.86.242.23,8080,elite proxy,elite proxy,HTTP/HTTPS
-50.222.245.46,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.115,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.82,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.157,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.77,80,anonymous,anonymous,HTTP/HTTPS
-116.104.161.32,12002,transparent,transparent,HTTP/HTTPS
-50.172.75.121,80,anonymous,anonymous,HTTP/HTTPS
-20.111.54.16,8123,elite proxy,elite proxy,HTTP/HTTPS
-50.172.75.122,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.65,80,anonymous,anonymous,HTTP/HTTPS
-216.246.40.215,8999,anonymous,anonymous,HTTP/HTTPS
-50.168.72.114,80,anonymous,anonymous,HTTP/HTTPS
-50.223.242.103,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.41,80,anonymous,anonymous,HTTP/HTTPS
-203.109.4.187,18092,elite proxy,elite proxy,HTTP/HTTPS
-50.171.177.126,80,anonymous,anonymous,HTTP/HTTPS
-50.144.166.226,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.81,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.67,80,anonymous,anonymous,HTTP/HTTPS
-68.185.57.66,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.15,80,anonymous,anonymous,HTTP/HTTPS
-0.0.0.0,80,anonymous,anonymous,HTTP/HTTPS
-20.206.106.192,8123,elite proxy,elite proxy,HTTP/HTTPS
-50.222.245.40,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.13,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.83,80,anonymous,anonymous,HTTP/HTTPS
-50.237.207.186,80,anonymous,anonymous,HTTP/HTTPS
-27.66.215.32,25113,transparent,transparent,HTTP/HTTPS
-171.226.249.49,40045,transparent,transparent,HTTP/HTTPS
-171.240.41.51,12004,transparent,transparent,HTTP/HTTPS
-156.239.49.6,3128,transparent,transparent,HTTP/HTTPS
-45.61.122.14,6306,transparent,transparent,HTTP/HTTPS
-172.245.157.44,6629,transparent,transparent,HTTP/HTTPS
-104.165.169.76,3128,transparent,transparent,HTTP/HTTPS
-156.239.48.153,3128,transparent,transparent,HTTP/HTTPS
-104.165.127.238,3128,transparent,transparent,HTTP/HTTPS
-154.202.118.181,3128,transparent,transparent,HTTP/HTTPS
-14.190.96.175,40881,transparent,transparent,HTTP/HTTPS
-171.240.16.36,12048,transparent,transparent,HTTP/HTTPS
-171.247.180.62,39777,transparent,transparent,HTTP/HTTPS
-149.102.130.120,80,transparent,transparent,HTTP/HTTPS
-116.109.182.84,4002,transparent,transparent,HTTP/HTTPS
-134.35.251.144,8080,transparent,transparent,HTTP/HTTPS
-103.124.198.102,3125,transparent,transparent,HTTP/HTTPS
-45.61.122.201,6493,transparent,transparent,HTTP/HTTPS
-216.173.76.146,6773,transparent,transparent,HTTP/HTTPS
-156.239.55.59,3128,transparent,transparent,HTTP/HTTPS
-206.206.64.140,6101,transparent,transparent,HTTP/HTTPS
-104.164.183.144,3128,transparent,transparent,HTTP/HTTPS
-156.239.52.238,3128,transparent,transparent,HTTP/HTTPS
-156.239.51.40,3128,transparent,transparent,HTTP/HTTPS
-156.239.52.147,3128,transparent,transparent,HTTP/HTTPS
-212.128.70.78,80,transparent,transparent,HTTP/HTTPS
-104.223.175.61,6097,transparent,transparent,HTTP/HTTPS
-107.173.137.249,6503,transparent,transparent,HTTP/HTTPS
-104.165.169.66,3128,transparent,transparent,HTTP/HTTPS
-157.52.253.208,6168,transparent,transparent,HTTP/HTTPS
-104.165.169.102,3128,transparent,transparent,HTTP/HTTPS
-207.244.219.62,6318,transparent,transparent,HTTP/HTTPS
-156.239.55.245,3128,transparent,transparent,HTTP/HTTPS
-104.252.131.182,3128,transparent,transparent,HTTP/HTTPS
-104.148.0.29,5384,transparent,transparent,HTTP/HTTPS
-104.238.10.21,5967,transparent,transparent,HTTP/HTTPS
-104.164.183.216,3128,transparent,transparent,HTTP/HTTPS
-161.123.115.252,5273,transparent,transparent,HTTP/HTTPS
-156.239.53.114,3128,transparent,transparent,HTTP/HTTPS
-43.229.9.249,6518,transparent,transparent,HTTP/HTTPS
-155.254.49.238,6798,transparent,transparent,HTTP/HTTPS
-45.41.162.193,6830,transparent,transparent,HTTP/HTTPS
-104.164.183.128,3128,transparent,transparent,HTTP/HTTPS
-64.64.118.186,6769,transparent,transparent,HTTP/HTTPS
-156.239.49.224,3128,transparent,transparent,HTTP/HTTPS
-104.165.127.133,3128,transparent,transparent,HTTP/HTTPS
-142.147.129.220,5829,transparent,transparent,HTTP/HTTPS
-104.252.131.163,3128,transparent,transparent,HTTP/HTTPS
-156.239.48.15,3128,transparent,transparent,HTTP/HTTPS
-142.111.245.87,5954,transparent,transparent,HTTP/HTTPS
-104.164.183.235,3128,transparent,transparent,HTTP/HTTPS
-134.73.18.173,6756,transparent,transparent,HTTP/HTTPS
-45.61.124.36,6365,transparent,transparent,HTTP/HTTPS
-176.253.53.25,80,transparent,transparent,HTTP/HTTPS
-89.32.200.57,6513,transparent,transparent,HTTP/HTTPS
-104.164.183.231,3128,transparent,transparent,HTTP/HTTPS
-45.141.80.154,5880,transparent,transparent,HTTP/HTTPS
-206.206.64.86,6047,transparent,transparent,HTTP/HTTPS
-156.239.49.99,3128,transparent,transparent,HTTP/HTTPS
-45.61.124.203,6532,transparent,transparent,HTTP/HTTPS
-23.228.83.216,5912,transparent,transparent,HTTP/HTTPS
-104.164.183.176,3128,transparent,transparent,HTTP/HTTPS
-154.202.127.161,3128,transparent,transparent,HTTP/HTTPS
-107.173.137.227,6481,transparent,transparent,HTTP/HTTPS
-104.164.183.18,3128,transparent,transparent,HTTP/HTTPS
-136.0.109.216,6502,transparent,transparent,HTTP/HTTPS
-104.252.131.12,3128,transparent,transparent,HTTP/HTTPS
-142.111.93.74,6635,transparent,transparent,HTTP/HTTPS
-104.164.183.163,3128,transparent,transparent,HTTP/HTTPS
-142.147.129.63,5672,transparent,transparent,HTTP/HTTPS
-104.252.131.191,3128,transparent,transparent,HTTP/HTTPS
-156.239.53.70,3128,transparent,transparent,HTTP/HTTPS
-104.223.175.156,6192,transparent,transparent,HTTP/HTTPS
-154.29.232.154,6814,transparent,transparent,HTTP/HTTPS
-184.174.27.35,6258,transparent,transparent,HTTP/HTTPS
-156.239.50.194,3128,transparent,transparent,HTTP/HTTPS
-206.206.122.174,5805,transparent,transparent,HTTP/HTTPS
-104.165.169.99,3128,transparent,transparent,HTTP/HTTPS
-198.23.239.188,6594,transparent,transparent,HTTP/HTTPS
-207.244.217.193,6740,transparent,transparent,HTTP/HTTPS
-104.143.252.90,5704,transparent,transparent,HTTP/HTTPS
-23.228.83.104,5800,transparent,transparent,HTTP/HTTPS
-134.73.128.139,6097,transparent,transparent,HTTP/HTTPS
-104.239.78.190,6135,transparent,transparent,HTTP/HTTPS
-206.206.122.143,5774,transparent,transparent,HTTP/HTTPS
-193.148.92.129,6056,transparent,transparent,HTTP/HTTPS
-104.165.169.12,3128,transparent,transparent,HTTP/HTTPS
-104.252.131.116,3128,transparent,transparent,HTTP/HTTPS
-104.252.131.46,3128,transparent,transparent,HTTP/HTTPS
-104.252.131.43,3128,transparent,transparent,HTTP/HTTPS
-156.239.55.156,3128,transparent,transparent,HTTP/HTTPS
-216.173.120.178,6470,transparent,transparent,HTTP/HTTPS
-156.239.49.200,3128,transparent,transparent,HTTP/HTTPS
-104.143.250.110,5742,transparent,transparent,HTTP/HTTPS
-198.46.241.184,6719,transparent,transparent,HTTP/HTTPS
-156.239.53.71,3128,transparent,transparent,HTTP/HTTPS
-154.202.114.73,3128,transparent,transparent,HTTP/HTTPS
-157.52.233.145,5772,transparent,transparent,HTTP/HTTPS
-154.202.99.115,3128,transparent,transparent,HTTP/HTTPS
-198.37.98.240,5770,transparent,transparent,HTTP/HTTPS
-104.165.169.64,3128,transparent,transparent,HTTP/HTTPS
-207.244.217.239,6786,transparent,transparent,HTTP/HTTPS
-156.239.49.35,3128,transparent,transparent,HTTP/HTTPS
-104.165.127.79,3128,transparent,transparent,HTTP/HTTPS
-156.239.55.84,3128,transparent,transparent,HTTP/HTTPS
-198.105.100.131,6382,transparent,transparent,HTTP/HTTPS
-34.92.250.88,10000,anonymous,anonymous,HTTP/HTTPS
-20.235.159.154,80,anonymous,anonymous,HTTP/HTTPS
 172.245.10.130,34567,elite proxy,elite proxy,HTTP/HTTPS
-189.240.60.166,9090,elite proxy,elite proxy,HTTP/HTTPS
-20.24.43.214,80,elite proxy,elite proxy,HTTP/HTTPS
+152.67.9.179,8100,elite proxy,elite proxy,HTTP/HTTPS
+20.235.159.154,80,anonymous,anonymous,HTTP/HTTPS
 139.59.1.14,8080,anonymous,anonymous,HTTP/HTTPS
-34.81.160.132,80,elite proxy,elite proxy,HTTP/HTTPS
-78.28.152.111,80,elite proxy,elite proxy,HTTP/HTTPS
-51.75.206.209,80,elite proxy,elite proxy,HTTP/HTTPS
-128.199.202.122,3128,anonymous,anonymous,HTTP/HTTPS
+188.132.209.245,80,anonymous,anonymous,HTTP/HTTPS
+50.168.72.118,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.81,80,anonymous,anonymous,HTTP/HTTPS
+50.222.245.50,80,anonymous,anonymous,HTTP/HTTPS
 59.144.184.73,80,elite proxy,elite proxy,HTTP/HTTPS
-50.168.72.116,80,anonymous,anonymous,HTTP/HTTPS
-50.231.172.74,80,anonymous,anonymous,HTTP/HTTPS
-216.137.184.253,80,elite proxy,elite proxy,HTTP/HTTPS
-50.169.135.10,80,anonymous,anonymous,HTTP/HTTPS
-38.54.71.67,80,elite proxy,elite proxy,HTTP/HTTPS
-45.9.26.254,8090,transparent,transparent,HTTP/HTTPS
-50.217.226.41,80,anonymous,anonymous,HTTP/HTTPS
+50.217.226.40,80,anonymous,anonymous,HTTP/HTTPS
+20.210.113.32,8123,elite proxy,elite proxy,HTTP/HTTPS
+50.218.57.71,80,anonymous,anonymous,HTTP/HTTPS
+50.239.72.16,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.74,80,anonymous,anonymous,HTTP/HTTPS
+50.145.24.181,80,anonymous,anonymous,HTTP/HTTPS
+190.110.226.122,80,elite proxy,elite proxy,HTTP/HTTPS
+50.168.72.112,80,anonymous,anonymous,HTTP/HTTPS
+189.202.188.149,80,anonymous,anonymous,HTTP/HTTPS
+103.127.1.130,80,anonymous,anonymous,HTTP/HTTPS
+50.218.204.99,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.67,80,anonymous,anonymous,HTTP/HTTPS
+41.207.187.178,80,anonymous,anonymous,HTTP/HTTPS
+34.81.72.31,80,elite proxy,elite proxy,HTTP/HTTPS
+37.120.189.106,80,elite proxy,elite proxy,HTTP/HTTPS
+34.81.160.132,80,elite proxy,elite proxy,HTTP/HTTPS
+93.171.220.229,8888,anonymous,anonymous,HTTP/HTTPS
+50.168.72.114,80,anonymous,anonymous,HTTP/HTTPS
+194.219.134.234,80,anonymous,anonymous,HTTP/HTTPS
+50.145.24.176,80,anonymous,anonymous,HTTP/HTTPS
+188.166.56.246,80,elite proxy,elite proxy,HTTP/HTTPS
+50.175.212.74,80,anonymous,anonymous,HTTP/HTTPS
+47.56.110.204,8989,anonymous,anonymous,HTTP/HTTPS
+50.239.72.18,80,anonymous,anonymous,HTTP/HTTPS
+50.173.182.90,80,anonymous,anonymous,HTTP/HTTPS
+197.255.125.12,80,elite proxy,elite proxy,HTTP/HTTPS
+50.218.57.65,80,anonymous,anonymous,HTTP/HTTPS
+50.168.72.113,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.84,80,anonymous,anonymous,HTTP/HTTPS
+50.217.226.42,80,anonymous,anonymous,HTTP/HTTPS
+178.16.139.143,80,elite proxy,elite proxy,HTTP/HTTPS
+51.15.242.202,8888,anonymous,anonymous,HTTP/HTTPS
+178.16.130.81,80,elite proxy,elite proxy,HTTP/HTTPS
+193.253.220.32,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.86,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.159,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.126,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.70,80,anonymous,anonymous,HTTP/HTTPS
+149.102.130.120,80,elite proxy,elite proxy,HTTP/HTTPS
+13.81.217.201,80,elite proxy,elite proxy,HTTP/HTTPS
+194.67.91.153,80,elite proxy,elite proxy,HTTP/HTTPS
+50.144.168.74,80,anonymous,anonymous,HTTP/HTTPS
+20.206.106.192,8123,elite proxy,elite proxy,HTTP/HTTPS
+47.74.152.29,8888,anonymous,anonymous,HTTP/HTTPS
+50.174.145.11,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.165,80,anonymous,anonymous,HTTP/HTTPS
+47.74.226.8,5001,transparent,transparent,HTTP/HTTPS
+50.218.57.66,80,anonymous,anonymous,HTTP/HTTPS
+50.174.145.15,80,anonymous,anonymous,HTTP/HTTPS
 50.230.222.202,80,anonymous,anonymous,HTTP/HTTPS
-186.207.191.210,8080,transparent,transparent,HTTP/HTTPS
-47.251.70.179,80,elite proxy,elite proxy,HTTP/HTTPS
-172.183.241.1,8080,elite proxy,elite proxy,HTTP/HTTPS
-189.240.60.168,9090,elite proxy,elite proxy,HTTP/HTTPS
-51.210.19.141,80,elite proxy,elite proxy,HTTP/HTTPS
-50.223.242.100,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.191,80,anonymous,anonymous,HTTP/HTTPS
+20.111.54.16,8123,elite proxy,elite proxy,HTTP/HTTPS
+50.231.104.58,80,anonymous,anonymous,HTTP/HTTPS
+127.0.0.7,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.120,80,anonymous,anonymous,HTTP/HTTPS
+34.23.45.223,80,elite proxy,elite proxy,HTTP/HTTPS
+64.227.4.244,8888,anonymous,anonymous,HTTP/HTTPS
+50.174.145.14,80,anonymous,anonymous,HTTP/HTTPS
+36.2.73.231,80,anonymous,anonymous,HTTP/HTTPS
+62.99.138.162,80,anonymous,anonymous,HTTP/HTTPS
+213.33.2.28,80,anonymous,anonymous,HTTP/HTTPS
+50.145.24.186,80,anonymous,anonymous,HTTP/HTTPS
+138.68.235.51,80,elite proxy,elite proxy,HTTP/HTTPS
+50.207.199.83,80,anonymous,anonymous,HTTP/HTTPS
+80.120.130.231,80,anonymous,anonymous,HTTP/HTTPS
+41.204.63.118,80,elite proxy,elite proxy,HTTP/HTTPS
+0.0.0.0,80,anonymous,anonymous,HTTP/HTTPS
 50.144.189.54,80,anonymous,anonymous,HTTP/HTTPS
-155.94.241.134,3128,anonymous,anonymous,HTTP/HTTPS
-73.117.183.115,80,elite proxy,elite proxy,HTTP/HTTPS
+50.218.224.35,80,anonymous,anonymous,HTTP/HTTPS
+190.103.177.131,80,anonymous,anonymous,HTTP/HTTPS
+43.153.75.22,80,anonymous,anonymous,HTTP/HTTPS
+211.128.96.206,80,anonymous,anonymous,HTTP/HTTPS
+167.99.174.59,80,elite proxy,elite proxy,HTTP/HTTPS
+50.172.75.127,80,anonymous,anonymous,HTTP/HTTPS
+156.38.112.11,80,elite proxy,elite proxy,HTTP/HTTPS
+50.172.75.123,80,anonymous,anonymous,HTTP/HTTPS
+195.23.57.78,80,anonymous,anonymous,HTTP/HTTPS
+163.181.117.60,80,anonymous,anonymous,HTTP/HTTPS
+78.28.152.111,80,elite proxy,elite proxy,HTTP/HTTPS
+116.203.28.43,80,anonymous,anonymous,HTTP/HTTPS
+50.171.187.51,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.122,80,anonymous,anonymous,HTTP/HTTPS
+50.222.245.40,80,anonymous,anonymous,HTTP/HTTPS
+185.199.53.73,80,elite proxy,elite proxy,HTTP/HTTPS
+82.119.96.254,80,anonymous,anonymous,HTTP/HTTPS
+45.92.108.112,80,elite proxy,elite proxy,HTTP/HTTPS
+34.87.84.105,80,elite proxy,elite proxy,HTTP/HTTPS
+20.24.43.214,80,elite proxy,elite proxy,HTTP/HTTPS
+50.223.38.6,80,anonymous,anonymous,HTTP/HTTPS
+139.99.244.154,80,elite proxy,elite proxy,HTTP/HTTPS
+50.172.75.125,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.68,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.191,80,anonymous,anonymous,HTTP/HTTPS
+134.35.56.154,8080,transparent,transparent,HTTP/HTTPS
+202.154.18.148,8085,transparent,transparent,HTTP/HTTPS
+103.218.25.169,58080,transparent,transparent,HTTP/HTTPS
+188.165.213.106,80,elite proxy,elite proxy,HTTP/HTTPS
+50.174.7.152,80,anonymous,anonymous,HTTP/HTTPS
+143.110.232.177,80,elite proxy,elite proxy,HTTP/HTTPS
+50.223.242.103,80,anonymous,anonymous,HTTP/HTTPS
+20.193.154.130,8888,anonymous,anonymous,HTTP/HTTPS
+211.222.252.187,8197,anonymous,anonymous,HTTP/HTTPS
+62.210.15.199,80,elite proxy,elite proxy,HTTP/HTTPS
+164.132.170.100,80,elite proxy,elite proxy,HTTP/HTTPS
+96.113.158.126,80,anonymous,anonymous,HTTP/HTTPS
+154.203.132.49,8080,anonymous,anonymous,HTTP/HTTPS
+91.65.103.3,80,elite proxy,elite proxy,HTTP/HTTPS
+196.1.95.124,80,elite proxy,elite proxy,HTTP/HTTPS
+50.174.145.8,80,anonymous,anonymous,HTTP/HTTPS
+176.65.240.15,80,anonymous,anonymous,HTTP/HTTPS
+216.246.40.215,8999,anonymous,anonymous,HTTP/HTTPS
+51.255.20.138,80,elite proxy,elite proxy,HTTP/HTTPS
+50.174.7.154,80,anonymous,anonymous,HTTP/HTTPS
+161.35.70.249,3128,anonymous,anonymous,HTTP/HTTPS
+141.147.9.254,80,anonymous,anonymous,HTTP/HTTPS
+138.91.159.185,80,elite proxy,elite proxy,HTTP/HTTPS
+114.143.0.177,80,anonymous,anonymous,HTTP/HTTPS
+162.240.76.92,80,elite proxy,elite proxy,HTTP/HTTPS
+195.12.191.2,80,anonymous,anonymous,HTTP/HTTPS
+185.201.8.166,80,elite proxy,elite proxy,HTTP/HTTPS
+131.196.212.172,80,elite proxy,elite proxy,HTTP/HTTPS
+108.170.12.13,80,elite proxy,elite proxy,HTTP/HTTPS
+89.22.120.116,80,elite proxy,elite proxy,HTTP/HTTPS
+89.145.162.81,3128,anonymous,anonymous,HTTP/HTTPS
+49.228.131.169,5000,anonymous,anonymous,HTTP/HTTPS
+159.54.149.67,80,elite proxy,elite proxy,HTTP/HTTPS
+50.222.245.46,80,anonymous,anonymous,HTTP/HTTPS
+197.243.20.178,80,elite proxy,elite proxy,HTTP/HTTPS
+51.210.127.15,80,elite proxy,elite proxy,HTTP/HTTPS
+50.222.245.47,80,anonymous,anonymous,HTTP/HTTPS
+213.33.126.130,80,anonymous,anonymous,HTTP/HTTPS
+154.203.132.55,8090,anonymous,anonymous,HTTP/HTTPS
+183.100.14.134,8000,elite proxy,elite proxy,HTTP/HTTPS
+139.60.209.2,80,anonymous,anonymous,HTTP/HTTPS
+203.109.4.187,18092,elite proxy,elite proxy,HTTP/HTTPS
+39.109.113.97,3128,anonymous,anonymous,HTTP/HTTPS
+154.65.39.8,80,elite proxy,elite proxy,HTTP/HTTPS
+217.160.99.39,80,elite proxy,elite proxy,HTTP/HTTPS
+77.232.128.191,80,elite proxy,elite proxy,HTTP/HTTPS
+147.45.104.252,80,elite proxy,elite proxy,HTTP/HTTPS
+185.87.12.135,80,anonymous,anonymous,HTTP/HTTPS
+122.10.225.55,8000,elite proxy,elite proxy,HTTP/HTTPS
+160.86.242.23,8080,elite proxy,elite proxy,HTTP/HTTPS
+50.174.7.155,80,anonymous,anonymous,HTTP/HTTPS
+162.240.75.37,80,elite proxy,elite proxy,HTTP/HTTPS
+50.239.72.19,80,anonymous,anonymous,HTTP/HTTPS
+50.222.245.45,80,anonymous,anonymous,HTTP/HTTPS
+50.175.212.77,80,anonymous,anonymous,HTTP/HTTPS
+198.44.255.3,80,anonymous,anonymous,HTTP/HTTPS
+52.117.32.233,82,elite proxy,elite proxy,HTTP/HTTPS
+50.172.75.121,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.80,80,anonymous,anonymous,HTTP/HTTPS
+80.120.49.242,80,anonymous,anonymous,HTTP/HTTPS
+190.58.248.86,80,anonymous,anonymous,HTTP/HTTPS
+68.183.143.134,80,elite proxy,elite proxy,HTTP/HTTPS
+50.223.239.175,80,anonymous,anonymous,HTTP/HTTPS
+213.218.228.253,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.157,80,anonymous,anonymous,HTTP/HTTPS
+50.171.177.126,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.173,80,anonymous,anonymous,HTTP/HTTPS
+50.168.7.250,80,anonymous,anonymous,HTTP/HTTPS
+195.35.2.231,80,elite proxy,elite proxy,HTTP/HTTPS
+50.223.242.100,80,anonymous,anonymous,HTTP/HTTPS
+200.19.177.120,80,elite proxy,elite proxy,HTTP/HTTPS
+51.75.206.209,80,elite proxy,elite proxy,HTTP/HTTPS
+65.108.9.181,80,elite proxy,elite proxy,HTTP/HTTPS
+63.209.32.128,6868,elite proxy,elite proxy,HTTP/HTTPS
+50.174.145.13,80,anonymous,anonymous,HTTP/HTTPS
+122.175.19.164,80,elite proxy,elite proxy,HTTP/HTTPS
+50.174.7.153,80,anonymous,anonymous,HTTP/HTTPS
+8.34.208.46,80,elite proxy,elite proxy,HTTP/HTTPS
+133.18.234.13,80,anonymous,anonymous,HTTP/HTTPS
+104.165.127.158,3128,transparent,transparent,HTTP/HTTPS
+206.206.73.70,6686,transparent,transparent,HTTP/HTTPS
+104.252.131.201,3128,transparent,transparent,HTTP/HTTPS
+43.245.116.104,6619,transparent,transparent,HTTP/HTTPS
+154.236.177.100,1976,transparent,transparent,HTTP/HTTPS
+104.252.131.241,3128,transparent,transparent,HTTP/HTTPS
+154.202.114.187,3128,transparent,transparent,HTTP/HTTPS
+156.239.53.53,3128,transparent,transparent,HTTP/HTTPS
+198.37.98.56,5586,transparent,transparent,HTTP/HTTPS
+206.206.124.64,6645,transparent,transparent,HTTP/HTTPS
+173.208.186.10,17086,transparent,transparent,HTTP/HTTPS
+156.239.48.91,3128,transparent,transparent,HTTP/HTTPS
+107.179.114.83,5856,transparent,transparent,HTTP/HTTPS
+134.73.128.208,6166,transparent,transparent,HTTP/HTTPS
+198.23.147.142,5157,transparent,transparent,HTTP/HTTPS
+45.41.160.215,6197,transparent,transparent,HTTP/HTTPS
+142.111.245.230,6097,transparent,transparent,HTTP/HTTPS
+172.245.157.250,6835,transparent,transparent,HTTP/HTTPS
+147.124.198.253,6112,transparent,transparent,HTTP/HTTPS
+161.123.151.249,6233,transparent,transparent,HTTP/HTTPS
+198.12.112.17,5028,transparent,transparent,HTTP/HTTPS
+198.37.121.208,6628,transparent,transparent,HTTP/HTTPS
+154.202.116.133,3128,transparent,transparent,HTTP/HTTPS
+142.111.245.23,5890,transparent,transparent,HTTP/HTTPS
+104.164.183.186,3128,transparent,transparent,HTTP/HTTPS
+156.239.53.236,3128,transparent,transparent,HTTP/HTTPS
+107.179.60.119,5151,transparent,transparent,HTTP/HTTPS
+184.174.44.143,6569,transparent,transparent,HTTP/HTTPS
+104.252.131.240,3128,transparent,transparent,HTTP/HTTPS
+173.244.41.189,6373,transparent,transparent,HTTP/HTTPS
+142.147.240.111,6633,transparent,transparent,HTTP/HTTPS
+45.141.83.99,6463,transparent,transparent,HTTP/HTTPS
+45.56.175.229,5903,transparent,transparent,HTTP/HTTPS
+23.247.37.70,6372,transparent,transparent,HTTP/HTTPS
+23.247.37.53,6355,transparent,transparent,HTTP/HTTPS
+156.239.50.134,3128,transparent,transparent,HTTP/HTTPS
+104.165.169.83,3128,transparent,transparent,HTTP/HTTPS
+156.239.51.27,3128,transparent,transparent,HTTP/HTTPS
+156.239.50.45,3128,transparent,transparent,HTTP/HTTPS
+45.141.83.76,6440,transparent,transparent,HTTP/HTTPS
+161.123.101.214,6840,transparent,transparent,HTTP/HTTPS
+206.206.69.209,6473,transparent,transparent,HTTP/HTTPS
+154.202.116.141,3128,transparent,transparent,HTTP/HTTPS
+136.0.109.190,6476,transparent,transparent,HTTP/HTTPS
+45.61.127.227,6166,transparent,transparent,HTTP/HTTPS
+134.73.65.159,6711,transparent,transparent,HTTP/HTTPS
+154.202.116.55,3128,transparent,transparent,HTTP/HTTPS
+198.23.128.111,5739,transparent,transparent,HTTP/HTTPS
+154.202.118.237,3128,transparent,transparent,HTTP/HTTPS
+157.52.252.32,6596,transparent,transparent,HTTP/HTTPS
+142.111.1.139,5171,transparent,transparent,HTTP/HTTPS
+156.239.52.96,3128,transparent,transparent,HTTP/HTTPS
+104.223.227.9,6532,transparent,transparent,HTTP/HTTPS
+156.239.49.37,3128,transparent,transparent,HTTP/HTTPS
+104.165.169.17,3128,transparent,transparent,HTTP/HTTPS
+198.144.190.169,6016,transparent,transparent,HTTP/HTTPS
+136.0.207.193,6770,transparent,transparent,HTTP/HTTPS
+104.252.131.71,3128,transparent,transparent,HTTP/HTTPS
+156.239.55.111,3128,transparent,transparent,HTTP/HTTPS
+104.165.127.154,3128,transparent,transparent,HTTP/HTTPS
+156.239.48.166,3128,transparent,transparent,HTTP/HTTPS
+104.223.222.207,6804,transparent,transparent,HTTP/HTTPS
+206.206.124.135,6716,transparent,transparent,HTTP/HTTPS
+134.73.70.17,6261,transparent,transparent,HTTP/HTTPS
+154.202.118.102,3128,transparent,transparent,HTTP/HTTPS
+154.202.124.94,3128,transparent,transparent,HTTP/HTTPS
+192.210.132.18,5988,transparent,transparent,HTTP/HTTPS
+156.239.50.151,3128,transparent,transparent,HTTP/HTTPS
+104.164.183.86,3128,transparent,transparent,HTTP/HTTPS
+156.239.48.61,3128,transparent,transparent,HTTP/HTTPS
+142.147.240.226,6748,transparent,transparent,HTTP/HTTPS
+156.239.55.42,3128,transparent,transparent,HTTP/HTTPS
+104.165.169.68,3128,transparent,transparent,HTTP/HTTPS
+142.147.244.50,6294,transparent,transparent,HTTP/HTTPS
+64.64.110.243,6766,transparent,transparent,HTTP/HTTPS
+134.73.68.13,6276,transparent,transparent,HTTP/HTTPS
+192.210.132.186,6156,transparent,transparent,HTTP/HTTPS
+104.252.131.229,3128,transparent,transparent,HTTP/HTTPS
+156.239.48.190,3128,transparent,transparent,HTTP/HTTPS
+147.185.250.148,6934,transparent,transparent,HTTP/HTTPS
+157.52.253.132,6092,transparent,transparent,HTTP/HTTPS
+206.206.122.31,5662,transparent,transparent,HTTP/HTTPS
+154.201.36.16,3128,transparent,transparent,HTTP/HTTPS
+156.239.55.232,3128,transparent,transparent,HTTP/HTTPS
+69.58.9.182,7252,transparent,transparent,HTTP/HTTPS
+45.61.122.161,6453,transparent,transparent,HTTP/HTTPS
+45.141.80.29,5755,transparent,transparent,HTTP/HTTPS
+104.165.169.91,3128,transparent,transparent,HTTP/HTTPS
+156.239.55.178,3128,transparent,transparent,HTTP/HTTPS
+104.165.127.67,3128,transparent,transparent,HTTP/HTTPS
+173.0.9.174,5757,transparent,transparent,HTTP/HTTPS
+156.239.53.189,3128,transparent,transparent,HTTP/HTTPS
+67.227.119.195,6524,transparent,transparent,HTTP/HTTPS
+154.202.113.150,3128,transparent,transparent,HTTP/HTTPS
+45.41.179.144,6679,transparent,transparent,HTTP/HTTPS
+107.172.156.224,5872,transparent,transparent,HTTP/HTTPS
+45.61.125.43,6054,transparent,transparent,HTTP/HTTPS
+198.46.202.58,5338,transparent,transparent,HTTP/HTTPS
+156.239.55.184,3128,transparent,transparent,HTTP/HTTPS
+154.202.118.202,3128,transparent,transparent,HTTP/HTTPS
+104.165.127.215,3128,transparent,transparent,HTTP/HTTPS
+192.210.132.75,6045,transparent,transparent,HTTP/HTTPS
+154.202.115.140,3128,transparent,transparent,HTTP/HTTPS
+156.239.52.210,3128,transparent,transparent,HTTP/HTTPS
+104.165.127.220,3128,transparent,transparent,HTTP/HTTPS
+104.164.183.222,3128,transparent,transparent,HTTP/HTTPS
+107.173.137.83,6337,transparent,transparent,HTTP/HTTPS
+161.123.151.144,6128,transparent,transparent,HTTP/HTTPS
+64.64.110.210,6733,transparent,transparent,HTTP/HTTPS
+134.73.18.33,6616,transparent,transparent,HTTP/HTTPS
+107.179.51.246,5889,transparent,transparent,HTTP/HTTPS
+154.201.36.164,3128,transparent,transparent,HTTP/HTTPS
+104.165.127.83,3128,transparent,transparent,HTTP/HTTPS
+104.252.131.31,3128,transparent,transparent,HTTP/HTTPS
+134.73.128.13,5971,transparent,transparent,HTTP/HTTPS
+156.239.53.46,3128,transparent,transparent,HTTP/HTTPS
+161.123.154.23,6553,transparent,transparent,HTTP/HTTPS
+198.37.121.56,6476,transparent,transparent,HTTP/HTTPS
+68.178.203.69,8899,anonymous,anonymous,HTTP/HTTPS
+198.74.51.79,8888,anonymous,anonymous,HTTP/HTTPS
 58.84.32.118,5678,Socks4,Socks4,HTTP/HTTPS
 58.147.171.109,10801,Socks4,Socks4,HTTP/HTTPS
 110.77.145.159,4145,Socks4,Socks4,HTTP/HTTPS
@@ -1099,340 +1096,365 @@
 66.29.128.242,15746,Socks4,Socks4,HTTP/HTTPS
 181.143.21.146,4153,Socks4,Socks4,HTTP/HTTPS
 91.218.102.187,1080,Socks4,Socks4,HTTP/HTTPS
-137.184.100.135,80,elite proxy,elite proxy,HTTP/HTTPS
+148.72.140.24,30127,elite proxy,elite proxy,HTTP/HTTPS
+159.65.244.233,80,elite proxy,elite proxy,HTTP/HTTPS
 192.73.244.36,80,elite proxy,elite proxy,HTTP/HTTPS
 198.49.68.80,80,elite proxy,elite proxy,HTTP/HTTPS
 137.184.6.203,8081,elite proxy,elite proxy,HTTP/HTTPS
 143.198.226.25,80,elite proxy,elite proxy,HTTP/HTTPS
-50.173.182.90,80,anonymous,anonymous,HTTP/HTTPS
-50.230.222.202,80,anonymous,anonymous,HTTP/HTTPS
+23.254.231.55,80,elite proxy,elite proxy,HTTP/HTTPS
 4.236.183.37,8080,anonymous,anonymous,HTTP/HTTPS
-50.172.75.127,80,anonymous,anonymous,HTTP/HTTPS
+167.99.174.59,80,elite proxy,elite proxy,HTTP/HTTPS
 64.227.4.244,8888,anonymous,anonymous,HTTP/HTTPS
+68.183.143.134,80,elite proxy,elite proxy,HTTP/HTTPS
+198.74.51.79,8888,anonymous,anonymous,HTTP/HTTPS
+216.246.40.215,8999,anonymous,anonymous,HTTP/HTTPS
+154.208.10.126,80,anonymous,anonymous,HTTP/HTTPS
+128.199.12.12,80,elite proxy,elite proxy,HTTP/HTTPS
+172.245.10.130,34567,elite proxy,elite proxy,HTTP/HTTPS
+89.116.191.51,80,elite proxy,elite proxy,HTTP/HTTPS
+68.178.203.69,8899,anonymous,anonymous,HTTP/HTTPS
+216.137.184.253,80,elite proxy,elite proxy,HTTP/HTTPS
+172.173.132.85,80,elite proxy,elite proxy,HTTP/HTTPS
+162.245.85.220,80,elite proxy,elite proxy,HTTP/HTTPS
+172.183.241.1,8080,elite proxy,elite proxy,HTTP/HTTPS
+34.23.45.223,80,elite proxy,elite proxy,HTTP/HTTPS
+50.168.72.112,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.70,80,anonymous,anonymous,HTTP/HTTPS
+50.168.72.119,80,anonymous,anonymous,HTTP/HTTPS
+138.197.102.119,80,elite proxy,elite proxy,HTTP/HTTPS
+104.225.220.233,80,elite proxy,elite proxy,HTTP/HTTPS
+50.173.182.90,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.185,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.127,80,anonymous,anonymous,HTTP/HTTPS
+50.168.72.116,80,anonymous,anonymous,HTTP/HTTPS
 50.222.245.44,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.43,80,anonymous,anonymous,HTTP/HTTPS
 50.171.122.30,80,anonymous,anonymous,HTTP/HTTPS
-50.223.246.237,80,anonymous,anonymous,HTTP/HTTPS
 50.222.245.40,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.158,80,anonymous,anonymous,HTTP/HTTPS
+50.222.245.41,80,anonymous,anonymous,HTTP/HTTPS
+162.252.84.93,80,anonymous,anonymous,HTTP/HTTPS
 50.222.245.50,80,anonymous,anonymous,HTTP/HTTPS
-50.171.187.50,80,anonymous,anonymous,HTTP/HTTPS
 50.237.207.186,80,anonymous,anonymous,HTTP/HTTPS
-50.144.168.74,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.168,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.194,80,anonymous,anonymous,HTTP/HTTPS
 50.171.187.51,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.66,80,anonymous,anonymous,HTTP/HTTPS
-50.144.189.54,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.68,80,anonymous,anonymous,HTTP/HTTPS
-139.60.209.2,80,anonymous,anonymous,HTTP/HTTPS
+50.171.177.124,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.74,80,anonymous,anonymous,HTTP/HTTPS
+24.205.201.186,80,anonymous,anonymous,HTTP/HTTPS
+47.90.205.231,33333,anonymous,anonymous,HTTP/HTTPS
 50.218.224.35,80,anonymous,anonymous,HTTP/HTTPS
 50.223.242.97,80,anonymous,anonymous,HTTP/HTTPS
 50.218.57.65,80,anonymous,anonymous,HTTP/HTTPS
+50.220.168.134,80,anonymous,anonymous,HTTP/HTTPS
 50.122.86.118,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.122,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.10,80,anonymous,anonymous,HTTP/HTTPS
+50.223.242.103,80,anonymous,anonymous,HTTP/HTTPS
 50.175.212.74,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.15,80,anonymous,anonymous,HTTP/HTTPS
 50.174.145.11,80,anonymous,anonymous,HTTP/HTTPS
-198.74.51.79,8888,anonymous,anonymous,HTTP/HTTPS
-50.172.75.121,80,anonymous,anonymous,HTTP/HTTPS
 32.223.6.94,80,anonymous,anonymous,HTTP/HTTPS
 50.172.75.125,80,anonymous,anonymous,HTTP/HTTPS
-154.208.10.126,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.126,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.162,80,anonymous,anonymous,HTTP/HTTPS
 147.182.180.242,80,elite proxy,elite proxy,HTTP/HTTPS
+50.239.72.17,80,anonymous,anonymous,HTTP/HTTPS
 50.174.7.156,80,anonymous,anonymous,HTTP/HTTPS
-167.102.133.106,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.47,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.157,80,anonymous,anonymous,HTTP/HTTPS
+52.117.32.233,82,elite proxy,elite proxy,HTTP/HTTPS
+50.221.74.130,80,anonymous,anonymous,HTTP/HTTPS
 50.168.72.114,80,anonymous,anonymous,HTTP/HTTPS
-216.137.184.253,80,elite proxy,elite proxy,HTTP/HTTPS
-172.173.132.85,80,elite proxy,elite proxy,HTTP/HTTPS
-50.168.72.113,80,anonymous,anonymous,HTTP/HTTPS
+143.110.232.177,80,elite proxy,elite proxy,HTTP/HTTPS
 50.207.199.83,80,anonymous,anonymous,HTTP/HTTPS
 50.217.226.40,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.42,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.159,80,anonymous,anonymous,HTTP/HTTPS
-148.72.140.24,30127,anonymous,anonymous,HTTP/HTTPS
-192.169.179.253,56111,elite proxy,elite proxy,HTTP/HTTPS
-104.225.220.233,80,elite proxy,elite proxy,HTTP/HTTPS
-35.209.198.222,80,elite proxy,elite proxy,HTTP/HTTPS
-47.251.43.115,33333,anonymous,anonymous,HTTP/HTTPS
-138.68.60.8,8080,anonymous,anonymous,HTTP/HTTPS
-5.161.103.41,88,elite proxy,elite proxy,HTTP/HTTPS
-43.153.75.22,80,anonymous,anonymous,HTTP/HTTPS
-66.191.31.158,80,anonymous,anonymous,HTTP/HTTPS
-128.199.12.12,80,elite proxy,elite proxy,HTTP/HTTPS
-50.174.7.153,80,anonymous,anonymous,HTTP/HTTPS
-68.178.203.69,8899,anonymous,anonymous,HTTP/HTTPS
-162.245.85.220,80,elite proxy,elite proxy,HTTP/HTTPS
-35.185.196.38,3128,anonymous,anonymous,HTTP/HTTPS
-199.167.236.12,3128,anonymous,anonymous,HTTP/HTTPS
-104.131.183.80,3128,anonymous,anonymous,HTTP/HTTPS
-147.135.54.182,3128,anonymous,anonymous,HTTP/HTTPS
-198.199.70.20,31028,anonymous,anonymous,HTTP/HTTPS
-63.209.32.128,6868,anonymous,anonymous,HTTP/HTTPS
-47.251.85.12,80,anonymous,anonymous,HTTP/HTTPS
-172.245.10.130,34567,elite proxy,elite proxy,HTTP/HTTPS
-172.245.10.132,34567,elite proxy,elite proxy,HTTP/HTTPS
-47.251.70.179,80,elite proxy,elite proxy,HTTP/HTTPS
-209.126.6.159,80,elite proxy,elite proxy,HTTP/HTTPS
-209.97.150.167,3128,anonymous,anonymous,HTTP/HTTPS
-198.44.255.5,80,anonymous,anonymous,HTTP/HTTPS
-73.117.183.115,80,elite proxy,elite proxy,HTTP/HTTPS
-162.240.75.37,80,elite proxy,elite proxy,HTTP/HTTPS
-12.186.205.122,80,anonymous,anonymous,HTTP/HTTPS
-173.255.119.18,80,elite proxy,elite proxy,HTTP/HTTPS
-12.176.231.147,80,elite proxy,elite proxy,HTTP/HTTPS
-138.91.159.185,80,elite proxy,elite proxy,HTTP/HTTPS
-50.168.72.112,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.14,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.122,80,anonymous,anonymous,HTTP/HTTPS
-138.68.235.51,80,elite proxy,elite proxy,HTTP/HTTPS
-50.223.239.191,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.74,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.119,80,anonymous,anonymous,HTTP/HTTPS
-167.102.133.105,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.123,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.117,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.45,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.103,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.165,80,anonymous,anonymous,HTTP/HTTPS
-167.99.236.14,80,elite proxy,elite proxy,HTTP/HTTPS
-103.152.112.145,80,anonymous,anonymous,HTTP/HTTPS
-68.183.143.134,80,elite proxy,elite proxy,HTTP/HTTPS
-89.116.191.51,80,elite proxy,elite proxy,HTTP/HTTPS
-50.174.7.155,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.46,80,anonymous,anonymous,HTTP/HTTPS
-50.145.24.181,80,anonymous,anonymous,HTTP/HTTPS
-34.135.166.24,80,anonymous,anonymous,HTTP/HTTPS
-198.199.86.11,8080,anonymous,anonymous,HTTP/HTTPS
-138.197.102.119,80,elite proxy,elite proxy,HTTP/HTTPS
-216.246.40.215,8999,anonymous,anonymous,HTTP/HTTPS
-172.183.241.1,8080,elite proxy,elite proxy,HTTP/HTTPS
-50.168.72.116,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.80,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.71,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.18,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.84,80,anonymous,anonymous,HTTP/HTTPS
-50.168.72.118,80,anonymous,anonymous,HTTP/HTTPS
+50.168.72.115,80,anonymous,anonymous,HTTP/HTTPS
 50.168.7.250,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.165,80,anonymous,anonymous,HTTP/HTTPS
+50.217.226.42,80,anonymous,anonymous,HTTP/HTTPS
+35.209.198.222,80,elite proxy,elite proxy,HTTP/HTTPS
+50.222.245.43,80,anonymous,anonymous,HTTP/HTTPS
+12.186.205.122,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.158,80,anonymous,anonymous,HTTP/HTTPS
+157.245.95.247,443,elite proxy,elite proxy,HTTP/HTTPS
+50.168.72.122,80,anonymous,anonymous,HTTP/HTTPS
+50.223.239.191,80,anonymous,anonymous,HTTP/HTTPS
 50.218.57.69,80,anonymous,anonymous,HTTP/HTTPS
 50.218.57.64,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.70,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.80,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.71,80,anonymous,anonymous,HTTP/HTTPS
+139.60.209.2,80,anonymous,anonymous,HTTP/HTTPS
+50.174.145.9,80,anonymous,anonymous,HTTP/HTTPS
+167.102.133.105,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.121,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.126,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.123,80,anonymous,anonymous,HTTP/HTTPS
+50.217.226.45,80,anonymous,anonymous,HTTP/HTTPS
+47.251.70.179,80,elite proxy,elite proxy,HTTP/HTTPS
+50.168.72.118,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.87,80,anonymous,anonymous,HTTP/HTTPS
+50.239.72.16,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.155,80,anonymous,anonymous,HTTP/HTTPS
+50.217.226.46,80,anonymous,anonymous,HTTP/HTTPS
+50.218.204.103,80,anonymous,anonymous,HTTP/HTTPS
+50.230.222.202,80,anonymous,anonymous,HTTP/HTTPS
+50.174.145.14,80,anonymous,anonymous,HTTP/HTTPS
+50.144.168.74,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.86,80,anonymous,anonymous,HTTP/HTTPS
+138.68.235.51,80,elite proxy,elite proxy,HTTP/HTTPS
+50.144.189.54,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.68,80,anonymous,anonymous,HTTP/HTTPS
 50.218.57.67,80,anonymous,anonymous,HTTP/HTTPS
-50.220.168.134,80,anonymous,anonymous,HTTP/HTTPS
-167.102.133.111,80,anonymous,anonymous,HTTP/HTTPS
+50.231.104.58,80,anonymous,anonymous,HTTP/HTTPS
+50.218.57.66,80,anonymous,anonymous,HTTP/HTTPS
+50.218.204.99,80,anonymous,anonymous,HTTP/HTTPS
+50.172.75.122,80,anonymous,anonymous,HTTP/HTTPS
+50.174.145.15,80,anonymous,anonymous,HTTP/HTTPS
+43.153.75.22,80,anonymous,anonymous,HTTP/HTTPS
 50.172.75.120,80,anonymous,anonymous,HTTP/HTTPS
 50.223.38.6,80,anonymous,anonymous,HTTP/HTTPS
-4.155.2.13,9480,elite proxy,elite proxy,HTTP/HTTPS
-50.168.72.115,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.16,80,anonymous,anonymous,HTTP/HTTPS
+50.239.72.18,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.84,80,anonymous,anonymous,HTTP/HTTPS
+50.207.199.81,80,anonymous,anonymous,HTTP/HTTPS
+50.168.72.113,80,anonymous,anonymous,HTTP/HTTPS
 50.145.24.176,80,anonymous,anonymous,HTTP/HTTPS
 50.145.24.186,80,anonymous,anonymous,HTTP/HTTPS
-167.99.124.118,80,anonymous,anonymous,HTTP/HTTPS
-162.240.76.92,80,elite proxy,elite proxy,HTTP/HTTPS
-34.23.45.223,80,elite proxy,elite proxy,HTTP/HTTPS
-34.122.187.196,80,elite proxy,elite proxy,HTTP/HTTPS
-143.110.232.177,80,elite proxy,elite proxy,HTTP/HTTPS
+50.145.24.181,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.159,80,anonymous,anonymous,HTTP/HTTPS
 108.170.12.13,80,elite proxy,elite proxy,HTTP/HTTPS
-23.254.231.55,80,elite proxy,elite proxy,HTTP/HTTPS
-165.227.0.192,80,elite proxy,elite proxy,HTTP/HTTPS
-52.117.32.233,82,elite proxy,elite proxy,HTTP/HTTPS
-47.90.205.231,33333,anonymous,anonymous,HTTP/HTTPS
-74.48.78.52,80,elite proxy,elite proxy,HTTP/HTTPS
-155.94.241.132,3128,anonymous,anonymous,HTTP/HTTPS
-155.94.241.134,3128,anonymous,anonymous,HTTP/HTTPS
-50.223.239.185,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.183,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.42,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.177,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.168,80,anonymous,anonymous,HTTP/HTTPS
-50.223.239.194,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.45,80,anonymous,anonymous,HTTP/HTTPS
-50.171.177.124,80,anonymous,anonymous,HTTP/HTTPS
-50.223.246.226,80,anonymous,anonymous,HTTP/HTTPS
-24.205.201.186,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.96,80,anonymous,anonymous,HTTP/HTTPS
-50.146.203.174,80,anonymous,anonymous,HTTP/HTTPS
-50.172.75.124,80,anonymous,anonymous,HTTP/HTTPS
-50.169.37.50,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.19,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.72,80,anonymous,anonymous,HTTP/HTTPS
-50.172.39.98,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.79,80,anonymous,anonymous,HTTP/HTTPS
-50.221.230.186,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.12,80,anonymous,anonymous,HTTP/HTTPS
-50.239.72.17,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.152,80,anonymous,anonymous,HTTP/HTTPS
-50.231.110.26,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.43,80,anonymous,anonymous,HTTP/HTTPS
-50.174.145.8,80,anonymous,anonymous,HTTP/HTTPS
-50.221.74.130,80,anonymous,anonymous,HTTP/HTTPS
-50.202.75.26,80,anonymous,anonymous,HTTP/HTTPS
-50.175.212.76,80,anonymous,anonymous,HTTP/HTTPS
 50.175.212.77,80,anonymous,anonymous,HTTP/HTTPS
-50.144.166.226,80,anonymous,anonymous,HTTP/HTTPS
+63.209.32.128,6868,elite proxy,elite proxy,HTTP/HTTPS
+162.240.75.37,80,elite proxy,elite proxy,HTTP/HTTPS
 50.223.239.175,80,anonymous,anonymous,HTTP/HTTPS
-50.222.245.41,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.86,80,anonymous,anonymous,HTTP/HTTPS
+50.222.245.45,80,anonymous,anonymous,HTTP/HTTPS
 50.222.245.46,80,anonymous,anonymous,HTTP/HTTPS
-50.217.226.44,80,anonymous,anonymous,HTTP/HTTPS
-50.231.104.58,80,anonymous,anonymous,HTTP/HTTPS
+50.223.242.100,80,anonymous,anonymous,HTTP/HTTPS
 50.171.177.126,80,anonymous,anonymous,HTTP/HTTPS
-50.218.57.66,80,anonymous,anonymous,HTTP/HTTPS
 96.113.158.126,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.99,80,anonymous,anonymous,HTTP/HTTPS
-50.223.242.103,80,anonymous,anonymous,HTTP/HTTPS
-50.218.204.106,80,anonymous,anonymous,HTTP/HTTPS
+50.239.72.19,80,anonymous,anonymous,HTTP/HTTPS
 50.174.145.13,80,anonymous,anonymous,HTTP/HTTPS
 50.222.245.47,80,anonymous,anonymous,HTTP/HTTPS
-68.185.57.66,80,anonymous,anonymous,HTTP/HTTPS
+162.240.76.92,80,elite proxy,elite proxy,HTTP/HTTPS
+50.174.7.153,80,anonymous,anonymous,HTTP/HTTPS
 50.174.7.154,80,anonymous,anonymous,HTTP/HTTPS
-50.174.7.157,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.81,80,anonymous,anonymous,HTTP/HTTPS
-50.207.199.82,80,anonymous,anonymous,HTTP/HTTPS
+50.174.7.152,80,anonymous,anonymous,HTTP/HTTPS
+50.174.145.8,80,anonymous,anonymous,HTTP/HTTPS
+138.91.159.185,80,elite proxy,elite proxy,HTTP/HTTPS
 50.223.239.173,80,anonymous,anonymous,HTTP/HTTPS
-154.202.118.181,3128,transparent,transparent,HTTP/HTTPS
-104.165.127.238,3128,transparent,transparent,HTTP/HTTPS
-104.165.169.76,3128,transparent,transparent,HTTP/HTTPS
-156.239.48.153,3128,transparent,transparent,HTTP/HTTPS
-156.239.49.6,3128,transparent,transparent,HTTP/HTTPS
-45.61.122.14,6306,transparent,transparent,HTTP/HTTPS
-172.245.157.44,6629,transparent,transparent,HTTP/HTTPS
+198.23.128.111,5739,transparent,transparent,HTTP/HTTPS
+156.239.48.190,3128,transparent,transparent,HTTP/HTTPS
+104.164.183.86,3128,transparent,transparent,HTTP/HTTPS
+157.52.252.32,6596,transparent,transparent,HTTP/HTTPS
+156.239.51.27,3128,transparent,transparent,HTTP/HTTPS
+206.206.122.31,5662,transparent,transparent,HTTP/HTTPS
+104.165.127.158,3128,transparent,transparent,HTTP/HTTPS
+104.165.127.154,3128,transparent,transparent,HTTP/HTTPS
+104.165.169.83,3128,transparent,transparent,HTTP/HTTPS
+156.239.55.111,3128,transparent,transparent,HTTP/HTTPS
+172.245.157.250,6835,transparent,transparent,HTTP/HTTPS
+173.244.41.189,6373,transparent,transparent,HTTP/HTTPS
+147.124.198.253,6112,transparent,transparent,HTTP/HTTPS
+104.223.227.9,6532,transparent,transparent,HTTP/HTTPS
+198.23.147.142,5157,transparent,transparent,HTTP/HTTPS
+142.111.245.230,6097,transparent,transparent,HTTP/HTTPS
+192.210.132.186,6156,transparent,transparent,HTTP/HTTPS
+156.239.52.96,3128,transparent,transparent,HTTP/HTTPS
+104.252.131.201,3128,transparent,transparent,HTTP/HTTPS
+107.179.114.83,5856,transparent,transparent,HTTP/HTTPS
+198.37.121.208,6628,transparent,transparent,HTTP/HTTPS
+198.12.112.17,5028,transparent,transparent,HTTP/HTTPS
+206.206.69.209,6473,transparent,transparent,HTTP/HTTPS
+45.141.83.76,6440,transparent,transparent,HTTP/HTTPS
+156.239.48.61,3128,transparent,transparent,HTTP/HTTPS
+64.64.110.243,6766,transparent,transparent,HTTP/HTTPS
+161.123.151.249,6233,transparent,transparent,HTTP/HTTPS
+154.202.116.141,3128,transparent,transparent,HTTP/HTTPS
+107.179.60.119,5151,transparent,transparent,HTTP/HTTPS
+104.165.127.67,3128,transparent,transparent,HTTP/HTTPS
+156.239.48.166,3128,transparent,transparent,HTTP/HTTPS
+45.61.122.161,6453,transparent,transparent,HTTP/HTTPS
+156.239.55.232,3128,transparent,transparent,HTTP/HTTPS
+45.61.127.227,6166,transparent,transparent,HTTP/HTTPS
+104.252.131.241,3128,transparent,transparent,HTTP/HTTPS
+134.73.70.17,6261,transparent,transparent,HTTP/HTTPS
+156.239.53.189,3128,transparent,transparent,HTTP/HTTPS
+45.141.83.99,6463,transparent,transparent,HTTP/HTTPS
+104.165.169.17,3128,transparent,transparent,HTTP/HTTPS
+136.0.207.193,6770,transparent,transparent,HTTP/HTTPS
+156.239.50.151,3128,transparent,transparent,HTTP/HTTPS
+23.247.37.53,6355,transparent,transparent,HTTP/HTTPS
+198.37.98.56,5586,transparent,transparent,HTTP/HTTPS
+192.210.132.18,5988,transparent,transparent,HTTP/HTTPS
+206.206.124.64,6645,transparent,transparent,HTTP/HTTPS
+156.239.53.53,3128,transparent,transparent,HTTP/HTTPS
+154.202.118.237,3128,transparent,transparent,HTTP/HTTPS
+154.201.36.16,3128,transparent,transparent,HTTP/HTTPS
+134.73.128.208,6166,transparent,transparent,HTTP/HTTPS
+173.208.186.10,17086,transparent,transparent,HTTP/HTTPS
+45.141.80.29,5755,transparent,transparent,HTTP/HTTPS
+136.0.109.190,6476,transparent,transparent,HTTP/HTTPS
+157.52.253.132,6092,transparent,transparent,HTTP/HTTPS
+134.73.65.159,6711,transparent,transparent,HTTP/HTTPS
+173.0.9.174,5757,transparent,transparent,HTTP/HTTPS
+154.202.124.94,3128,transparent,transparent,HTTP/HTTPS
+23.247.37.70,6372,transparent,transparent,HTTP/HTTPS
+156.239.50.45,3128,transparent,transparent,HTTP/HTTPS
+154.202.116.133,3128,transparent,transparent,HTTP/HTTPS
+142.111.1.139,5171,transparent,transparent,HTTP/HTTPS
+161.123.101.214,6840,transparent,transparent,HTTP/HTTPS
+51.89.14.70,80,elite proxy,elite proxy,HTTP/HTTPS
 51.75.206.209,80,elite proxy,elite proxy,HTTP/HTTPS
 51.89.73.162,80,elite proxy,elite proxy,HTTP/HTTPS
-51.89.14.70,80,elite proxy,elite proxy,HTTP/HTTPS
+149.102.130.120,80,elite proxy,elite proxy,HTTP/HTTPS
+206.232.127.152,6114,transparent,transparent,HTTP/HTTPS
+155.254.49.238,6798,transparent,transparent,HTTP/HTTPS
+104.143.250.110,5742,transparent,transparent,HTTP/HTTPS
+216.173.76.146,6773,transparent,transparent,HTTP/HTTPS
+104.238.10.21,5967,transparent,transparent,HTTP/HTTPS
+104.143.252.90,5704,transparent,transparent,HTTP/HTTPS
+198.105.100.131,6382,transparent,transparent,HTTP/HTTPS
+176.253.53.25,80,transparent,transparent,HTTP/HTTPS
+104.239.78.190,6135,transparent,transparent,HTTP/HTTPS
+216.173.120.178,6470,transparent,transparent,HTTP/HTTPS
+104.239.80.39,5617,transparent,transparent,HTTP/HTTPS
+198.105.101.78,5707,transparent,transparent,HTTP/HTTPS
+104.143.251.81,6343,transparent,transparent,HTTP/HTTPS
+104.143.250.101,5733,transparent,transparent,HTTP/HTTPS
 104.233.13.31,6026,transparent,transparent,HTTP/HTTPS
-104.239.80.168,5746,transparent,transparent,HTTP/HTTPS
 104.143.250.209,5841,transparent,transparent,HTTP/HTTPS
+104.239.80.168,5746,transparent,transparent,HTTP/HTTPS
 104.239.104.207,6431,transparent,transparent,HTTP/HTTPS
 134.209.29.120,3128,anonymous,anonymous,HTTP/HTTPS
 104.239.80.159,5737,transparent,transparent,HTTP/HTTPS
-104.239.105.22,6552,transparent,transparent,HTTP/HTTPS
-104.239.106.120,5765,transparent,transparent,HTTP/HTTPS
-104.233.12.238,6789,transparent,transparent,HTTP/HTTPS
+104.233.26.22,5860,transparent,transparent,HTTP/HTTPS
 104.239.104.87,6311,transparent,transparent,HTTP/HTTPS
 45.43.167.146,6328,transparent,transparent,HTTP/HTTPS
-104.233.26.22,5860,transparent,transparent,HTTP/HTTPS
+104.233.12.238,6789,transparent,transparent,HTTP/HTTPS
+104.239.106.120,5765,transparent,transparent,HTTP/HTTPS
+104.239.105.22,6552,transparent,transparent,HTTP/HTTPS
 104.239.80.24,5602,transparent,transparent,HTTP/HTTPS
-104.238.10.133,6079,transparent,transparent,HTTP/HTTPS
-104.239.105.240,6770,transparent,transparent,HTTP/HTTPS
-104.250.207.204,6602,transparent,transparent,HTTP/HTTPS
-104.233.26.191,6029,transparent,transparent,HTTP/HTTPS
-104.233.12.39,6590,transparent,transparent,HTTP/HTTPS
-216.173.76.224,6851,transparent,transparent,HTTP/HTTPS
-104.239.105.119,6649,transparent,transparent,HTTP/HTTPS
-216.173.120.181,6473,transparent,transparent,HTTP/HTTPS
 104.143.251.106,6368,transparent,transparent,HTTP/HTTPS
-45.43.167.72,6254,transparent,transparent,HTTP/HTTPS
+104.239.105.240,6770,transparent,transparent,HTTP/HTTPS
+104.238.10.133,6079,transparent,transparent,HTTP/HTTPS
+216.173.120.181,6473,transparent,transparent,HTTP/HTTPS
+104.239.105.119,6649,transparent,transparent,HTTP/HTTPS
+216.173.76.224,6851,transparent,transparent,HTTP/HTTPS
+104.233.12.39,6590,transparent,transparent,HTTP/HTTPS
+104.233.26.191,6029,transparent,transparent,HTTP/HTTPS
+104.250.207.204,6602,transparent,transparent,HTTP/HTTPS
 104.233.13.59,6054,transparent,transparent,HTTP/HTTPS
-104.239.80.196,5774,transparent,transparent,HTTP/HTTPS
-104.143.251.239,6501,transparent,transparent,HTTP/HTTPS
+45.43.167.72,6254,transparent,transparent,HTTP/HTTPS
 104.239.106.0,5645,transparent,transparent,HTTP/HTTPS
+104.239.80.196,5774,transparent,transparent,HTTP/HTTPS
 104.233.12.134,6685,transparent,transparent,HTTP/HTTPS
+104.143.251.239,6501,transparent,transparent,HTTP/HTTPS
 104.239.80.188,5766,transparent,transparent,HTTP/HTTPS
 104.143.248.197,6807,transparent,transparent,HTTP/HTTPS
 104.239.80.17,5595,transparent,transparent,HTTP/HTTPS
 104.143.252.135,5749,transparent,transparent,HTTP/HTTPS
-104.143.250.102,5734,transparent,transparent,HTTP/HTTPS
+104.250.207.40,6438,transparent,transparent,HTTP/HTTPS
 104.233.13.153,6148,transparent,transparent,HTTP/HTTPS
 104.239.80.35,5613,transparent,transparent,HTTP/HTTPS
 104.143.252.20,5634,transparent,transparent,HTTP/HTTPS
+104.143.250.102,5734,transparent,transparent,HTTP/HTTPS
 104.143.252.132,5746,transparent,transparent,HTTP/HTTPS
-104.250.207.40,6438,transparent,transparent,HTTP/HTTPS
-104.239.78.78,6023,transparent,transparent,HTTP/HTTPS
-104.143.251.105,6367,transparent,transparent,HTTP/HTTPS
 104.143.252.10,5624,transparent,transparent,HTTP/HTTPS
+45.43.167.33,6215,transparent,transparent,HTTP/HTTPS
+104.239.105.187,6717,transparent,transparent,HTTP/HTTPS
+104.239.105.132,6662,transparent,transparent,HTTP/HTTPS
+104.239.78.78,6023,transparent,transparent,HTTP/HTTPS
+104.239.106.175,5820,transparent,transparent,HTTP/HTTPS
+104.239.104.180,6404,transparent,transparent,HTTP/HTTPS
 104.233.26.79,5917,transparent,transparent,HTTP/HTTPS
 104.239.105.175,6705,transparent,transparent,HTTP/HTTPS
-104.233.12.190,6741,transparent,transparent,HTTP/HTTPS
-104.239.78.245,6190,transparent,transparent,HTTP/HTTPS
-104.143.251.131,6393,transparent,transparent,HTTP/HTTPS
-104.239.106.175,5820,transparent,transparent,HTTP/HTTPS
-104.239.105.132,6662,transparent,transparent,HTTP/HTTPS
-104.239.104.76,6300,transparent,transparent,HTTP/HTTPS
-104.239.105.187,6717,transparent,transparent,HTTP/HTTPS
-45.43.167.33,6215,transparent,transparent,HTTP/HTTPS
-104.239.104.180,6404,transparent,transparent,HTTP/HTTPS
-104.143.252.211,5825,transparent,transparent,HTTP/HTTPS
-104.239.104.227,6451,transparent,transparent,HTTP/HTTPS
 104.239.80.28,5606,transparent,transparent,HTTP/HTTPS
-104.239.105.174,6704,transparent,transparent,HTTP/HTTPS
-104.233.12.84,6635,transparent,transparent,HTTP/HTTPS
-104.239.106.139,5784,transparent,transparent,HTTP/HTTPS
 104.143.251.69,6331,transparent,transparent,HTTP/HTTPS
+104.143.252.211,5825,transparent,transparent,HTTP/HTTPS
+104.239.106.139,5784,transparent,transparent,HTTP/HTTPS
+104.143.251.105,6367,transparent,transparent,HTTP/HTTPS
+104.239.105.174,6704,transparent,transparent,HTTP/HTTPS
+104.143.251.131,6393,transparent,transparent,HTTP/HTTPS
+104.239.104.76,6300,transparent,transparent,HTTP/HTTPS
+104.233.12.190,6741,transparent,transparent,HTTP/HTTPS
+104.233.12.84,6635,transparent,transparent,HTTP/HTTPS
+104.239.104.227,6451,transparent,transparent,HTTP/HTTPS
+104.239.78.245,6190,transparent,transparent,HTTP/HTTPS
 88.80.187.42,3128,transparent,transparent,HTTP/HTTPS
-138.128.153.162,5196,transparent,transparent,HTTP/HTTPS
 104.239.105.72,6602,transparent,transparent,HTTP/HTTPS
+138.128.153.162,5196,transparent,transparent,HTTP/HTTPS
 107.181.154.154,5832,transparent,transparent,HTTP/HTTPS
 107.181.154.170,5848,transparent,transparent,HTTP/HTTPS
-216.173.76.102,6729,transparent,transparent,HTTP/HTTPS
-104.233.13.107,6102,transparent,transparent,HTTP/HTTPS
-104.239.106.95,5740,transparent,transparent,HTTP/HTTPS
+104.143.252.54,5668,transparent,transparent,HTTP/HTTPS
 104.239.80.58,5636,transparent,transparent,HTTP/HTTPS
 216.173.120.167,6459,transparent,transparent,HTTP/HTTPS
 104.238.10.65,6011,transparent,transparent,HTTP/HTTPS
 104.143.251.158,6420,transparent,transparent,HTTP/HTTPS
+104.233.13.107,6102,transparent,transparent,HTTP/HTTPS
 104.239.78.16,5961,transparent,transparent,HTTP/HTTPS
 104.239.104.235,6459,transparent,transparent,HTTP/HTTPS
-104.143.252.54,5668,transparent,transparent,HTTP/HTTPS
+216.173.76.102,6729,transparent,transparent,HTTP/HTTPS
+104.239.106.95,5740,transparent,transparent,HTTP/HTTPS
 206.232.127.82,6044,transparent,transparent,HTTP/HTTPS
-198.105.108.151,6173,transparent,transparent,HTTP/HTTPS
-206.232.127.24,5986,transparent,transparent,HTTP/HTTPS
-104.143.251.55,6317,transparent,transparent,HTTP/HTTPS
-104.250.200.23,6273,transparent,transparent,HTTP/HTTPS
+216.173.120.165,6457,transparent,transparent,HTTP/HTTPS
 45.43.83.139,6422,transparent,transparent,HTTP/HTTPS
-104.233.26.248,6086,transparent,transparent,HTTP/HTTPS
+104.143.250.199,5831,transparent,transparent,HTTP/HTTPS
 107.181.141.185,6582,transparent,transparent,HTTP/HTTPS
 104.143.224.209,6070,transparent,transparent,HTTP/HTTPS
-216.173.120.165,6457,transparent,transparent,HTTP/HTTPS
-104.239.78.162,6107,transparent,transparent,HTTP/HTTPS
-104.239.6.6,6140,transparent,transparent,HTTP/HTTPS
-104.143.250.199,5831,transparent,transparent,HTTP/HTTPS
 107.181.130.173,5794,transparent,transparent,HTTP/HTTPS
-104.250.204.25,6116,transparent,transparent,HTTP/HTTPS
-206.232.127.246,6208,transparent,transparent,HTTP/HTTPS
-104.239.105.82,6612,transparent,transparent,HTTP/HTTPS
-45.43.84.107,6732,transparent,transparent,HTTP/HTTPS
-107.181.130.2,5623,transparent,transparent,HTTP/HTTPS
-107.181.152.211,5248,transparent,transparent,HTTP/HTTPS
-104.239.80.103,5681,transparent,transparent,HTTP/HTTPS
-45.43.167.44,6226,transparent,transparent,HTTP/HTTPS
-104.233.26.211,6049,transparent,transparent,HTTP/HTTPS
-35.185.196.38,3128,anonymous,anonymous,HTTP/HTTPS
-171.250.1.42,30021,elite proxy,elite proxy,HTTP/HTTPS
-203.109.4.187,18092,elite proxy,elite proxy,HTTP/HTTPS
-171.236.133.93,12002,elite proxy,elite proxy,HTTP/HTTPS
-160.86.242.23,8080,elite proxy,elite proxy,HTTP/HTTPS
+198.105.108.151,6173,transparent,transparent,HTTP/HTTPS
 20.235.159.154,80,anonymous,anonymous,HTTP/HTTPS
-34.92.250.88,10000,anonymous,anonymous,HTTP/HTTPS
-189.240.60.166,9090,elite proxy,elite proxy,HTTP/HTTPS
 172.245.10.130,34567,elite proxy,elite proxy,HTTP/HTTPS
-189.240.60.168,9090,elite proxy,elite proxy,HTTP/HTTPS
-47.251.70.179,80,elite proxy,elite proxy,HTTP/HTTPS
+152.67.9.179,8100,elite proxy,elite proxy,HTTP/HTTPS
+160.86.242.23,8080,elite proxy,elite proxy,HTTP/HTTPS
+203.109.4.187,18092,elite proxy,elite proxy,HTTP/HTTPS
+35.185.196.38,3128,anonymous,anonymous,HTTP/HTTPS
 172.183.241.1,8080,elite proxy,elite proxy,HTTP/HTTPS
-171.248.176.139,4011,elite proxy,elite proxy,HTTP/HTTPS
+114.129.2.82,8081,elite proxy,elite proxy,HTTP/HTTPS
+8.219.97.248,80,anonymous,anonymous,HTTP/HTTPS
 47.251.85.12,80,elite proxy,elite proxy,HTTP/HTTPS
-189.240.60.164,9090,elite proxy,elite proxy,HTTP/HTTPS
+148.72.140.24,30127,anonymous,anonymous,HTTP/HTTPS
+189.240.60.168,9090,elite proxy,elite proxy,HTTP/HTTPS
+47.251.43.115,33333,anonymous,anonymous,HTTP/HTTPS
+43.132.124.11,3128,anonymous,anonymous,HTTP/HTTPS
+203.122.6.29,8080,anonymous,anonymous,HTTP/HTTPS
+223.204.48.171,8080,anonymous,anonymous,HTTP/HTTPS
+189.240.60.171,9090,anonymous,anonymous,HTTP/HTTPS
+189.240.60.163,9090,anonymous,anonymous,HTTP/HTTPS
+45.65.137.218,999,anonymous,anonymous,HTTP/HTTPS
+34.92.250.88,10000,anonymous,anonymous,HTTP/HTTPS
+191.243.46.154,43241,anonymous,anonymous,HTTP/HTTPS
+190.121.207.58,999,anonymous,anonymous,HTTP/HTTPS
+201.217.246.212,8080,anonymous,anonymous,HTTP/HTTPS
+198.199.70.20,31028,anonymous,anonymous,HTTP/HTTPS
+47.91.104.88,3128,anonymous,anonymous,HTTP/HTTPS
+200.24.131.126,999,anonymous,anonymous,HTTP/HTTPS
+8.213.129.15,10000,anonymous,anonymous,HTTP/HTTPS
+47.91.65.23,3128,anonymous,anonymous,HTTP/HTTPS
+77.41.146.44,8080,anonymous,anonymous,HTTP/HTTPS
+190.2.215.234,999,anonymous,anonymous,HTTP/HTTPS
+45.9.26.254,8090,anonymous,anonymous,HTTP/HTTPS
+101.109.146.116,8080,anonymous,anonymous,HTTP/HTTPS
+199.167.236.12,3128,anonymous,anonymous,HTTP/HTTPS
+187.17.166.66,92,anonymous,anonymous,HTTP/HTTPS
+161.132.37.206,3128,anonymous,anonymous,HTTP/HTTPS
+47.251.70.179,80,elite proxy,elite proxy,HTTP/HTTPS
+104.131.183.80,3128,anonymous,anonymous,HTTP/HTTPS
+147.135.54.182,3128,anonymous,anonymous,HTTP/HTTPS
+47.243.92.199,3128,anonymous,anonymous,HTTP/HTTPS
+172.245.10.132,34567,elite proxy,elite proxy,HTTP/HTTPS
+190.95.202.210,999,anonymous,anonymous,HTTP/HTTPS
+178.48.68.61,18080,anonymous,anonymous,HTTP/HTTPS
+189.240.60.166,9090,elite proxy,elite proxy,HTTP/HTTPS
+4.155.2.13,9480,elite proxy,elite proxy,HTTP/HTTPS
+189.240.60.169,9090,elite proxy,elite proxy,HTTP/HTTPS
+171.250.1.42,30021,elite proxy,elite proxy,HTTP/HTTPS
+171.236.133.93,12002,elite proxy,elite proxy,HTTP/HTTPS
+171.248.176.139,4011,elite proxy,elite proxy,HTTP/HTTPS
 112.19.241.37,19999,anonymous,anonymous,HTTP/HTTPS
 185.64.208.26,53281,elite proxy,elite proxy,HTTP/HTTPS
-8.219.97.248,80,anonymous,anonymous,HTTP/HTTPS
-63.209.32.128,6868,elite proxy,elite proxy,HTTP/HTTPS
 103.87.169.204,56642,elite proxy,elite proxy,HTTP/HTTPS
-189.240.60.169,9090,elite proxy,elite proxy,HTTP/HTTPS
-152.67.9.179,8100,elite proxy,elite proxy,HTTP/HTTPS
 223.135.156.183,8080,elite proxy,elite proxy,HTTP/HTTPS
 66.188.181.143,8080,elite proxy,elite proxy,HTTP/HTTPS
-189.240.60.163,9090,elite proxy,elite proxy,HTTP/HTTPS
-89.208.30.217,8080,elite proxy,elite proxy,HTTP/HTTPS
 179.96.28.58,80,elite proxy,elite proxy,HTTP/HTTPS
 220.233.27.127,80,elite proxy,elite proxy,HTTP/HTTPS
 5.196.111.29,20060,elite proxy,elite proxy,HTTP/HTTPS
 38.91.101.96,8850,elite proxy,elite proxy,HTTP/HTTPS
 195.159.124.56,85,elite proxy,elite proxy,HTTP/HTTPS
 172.245.12.56,34567,elite proxy,elite proxy,HTTP/HTTPS
-148.72.140.24,30127,anonymous,anonymous,HTTP/HTTPS
-47.90.205.231,33333,anonymous,anonymous,HTTP/HTTPS
 3.86.76.55,3128,elite proxy,elite proxy,HTTP/HTTPS
 212.98.224.249,8080,elite proxy,elite proxy,HTTP/HTTPS
 72.10.160.172,16231,elite proxy,elite proxy,HTTP/HTTPS
@@ -1846,25 +1868,23 @@
 80.91.125.238,8089,Albania,unknown,unknown
 146.70.80.76,80,Denmark,unknown,unknown
 102.39.68.76,8080,South Africa,unknown,unknown
-165.225.80.212,11194,United Kingdom of Great Britain and Northern Ireland,elite,http
-210.247.252.184,3128,Indonesia,transparent,http
-190.111.209.207,3128,Argentina,transparent,http
-114.231.46.103,8888,China,elite,http
-114.231.8.117,8089,China,elite,http
-185.111.156.170,80,United States of America,elite,http
-45.70.238.22,999,Ecuador,transparent,http
-185.222.115.104,31280,United Kingdom of Great Britain and Northern Ireland,elite,http
-103.86.109.38,80,Bangladesh,elite,http
-77.232.128.191,80,Russian Federation,elite,http
-104.129.199.51,10160,United States of America,elite,http
-206.233.164.66,58394,Hong Kong,elite,http
-172.233.120.89,8000,Spain,elite,http
-58.246.58.150,9002,China,elite,http
-147.161.168.80,11197,Germany,elite,http
-49.13.252.196,80,Germany,elite,http
-161.35.70.249,8080,Germany,elite,http
-123.205.24.244,8193,Taiwan, Province of China,elite,http
-115.77.153.116,4001,Viet Nam,elite,http
-165.225.94.95,11194,Switzerland,elite,http
-79.137.194.203,4001,Netherlands,elite,http
-103.88.239.178,84,India,transparent,http
+91.92.155.207,3128,Switzerland,elite,http
+51.89.14.70,80,United Kingdom of Great Britain and Northern Ireland,elite,http
+190.26.255.30,999,Colombia,transparent,http
+146.190.87.88,8888,United States of America,transparent,http
+165.225.231.9,11194,Singapore,elite,http
+147.161.144.117,11194,United Kingdom of Great Britain and Northern Ireland,elite,http
+60.12.168.114,9002,China,elite,http
+45.142.104.233,5555,Germany,transparent,http
+103.37.111.253,18081,Japan,transparent,http
+135.181.154.225,80,Finland,elite,http
+74.48.78.52,80,United States of America,elite,http
+86.101.159.147,18080,Hungary,transparent,http
+171.5.165.25,8080,Thailand,transparent,http
+181.78.85.45,998,Colombia,transparent,http
+190.110.35.229,999,Dominican Republic,transparent,http
+173.255.119.18,80,United States of America,elite,http
+171.232.79.226,4013,Viet Nam,elite,http
+186.215.87.194,6025,Brazil,elite,http
+188.132.203.106,8080,Türkiye,transparent,http
+167.103.7.109,11194,India,elite,http
