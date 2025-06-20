@@ -43,3 +43,43 @@ jobs:
         branch: ${{ github.ref }}
       env:
         CI: true
+
+        - name: Notify via Discord (Success)
+      if: success()
+      run: |
+        curl -H "Content-Type: application/json" \
+        -X POST -d '{
+          "embeds": [{
+            "title": "✅ Proxy Update Success",
+            "description": "The proxy update job has completed successfully.",
+            "color": 3066993,
+            "fields": [
+              {"name": "Repository", "value": "${{ github.repository }}", "inline": true},
+              {"name": "Branch", "value": "${{ github.ref_name }}", "inline": true},
+              {"name": "Workflow", "value": "${{ github.workflow }}", "inline": true},
+              {"name": "Time", "value": "'"$(date +"%Y-%m-%d %H:%M:%S")"'"}
+            ],
+            "footer": {"text": "Skiddle Bot | GitHub Actions"}
+          }]
+        }' ${{ secrets.DISCORD_WEBHOOK }}
+      shell: bash
+
+    - name: Notify via Discord (Failure)
+      if: failure()
+      run: |
+        curl -H "Content-Type: application/json" \
+        -X POST -d '{
+          "embeds": [{
+            "title": "❌ Proxy Update Failed",
+            "description": "An error occurred during the proxy update job.",
+            "color": 15158332,
+            "fields": [
+              {"name": "Repository", "value": "${{ github.repository }}", "inline": true},
+              {"name": "Branch", "value": "${{ github.ref_name }}", "inline": true},
+              {"name": "Workflow", "value": "${{ github.workflow }}", "inline": true},
+              {"name": "Time", "value": "'"$(date +"%Y-%m-%d %H:%M:%S")"'"}
+            ],
+            "footer": {"text": "Skiddle Bot | GitHub Actions"}
+          }]
+        }' ${{ secrets.DISCORD_WEBHOOK }}
+      shell: bash
