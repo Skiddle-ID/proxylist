@@ -1,6 +1,3 @@
-# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-
 name: Proxy Update Job
 
 on:
@@ -11,8 +8,8 @@ on:
     - cron: '0 * * * *'
 
 permissions:
-    contents: read
-    pull-requests: write
+  contents: read
+  pull-requests: write
 
 jobs:
   build:
@@ -23,63 +20,66 @@ jobs:
         node-version: [18.16.0]
 
     steps:
-    - uses: actions/checkout@v4
-      with:
-        ref: ${{ github.head_ref }}
-        token: ${{ secrets.BOT_GITHUB_TOKEN || github.token }}
-    - run: npm i
-    - run: npm install -g protractor
-    - run: sudo chmod 0755 /usr/local/share/chromedriver-linux64
-    - run: protractor conf.js
-    - name: Commit files
-      run: |
-        git config --local user.email "165562787+skiddle-bot@users.noreply.github.com"
-        git config --local user.name "skiddle-bot"
-        git commit -a -m "Updated Proxies"
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.BOT_GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
-      env:
-        CI: true
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.BOT_GITHUB_TOKEN || github.token }}
 
-        - name: Notify via Discord (Success)
-      if: success()
-      run: |
-        curl -H "Content-Type: application/json" \
-        -X POST -d '{
-          "embeds": [{
-            "title": "✅ Proxy Update Success",
-            "description": "The proxy update job has completed successfully.",
-            "color": 3066993,
-            "fields": [
-              {"name": "Repository", "value": "${{ github.repository }}", "inline": true},
-              {"name": "Branch", "value": "${{ github.ref_name }}", "inline": true},
-              {"name": "Workflow", "value": "${{ github.workflow }}", "inline": true},
-              {"name": "Time", "value": "'"$(date +"%Y-%m-%d %H:%M:%S")"'"}
-            ],
-            "footer": {"text": "Skiddle Bot | GitHub Actions"}
-          }]
-        }' ${{ secrets.DISCORD_WEBHOOK }}
-      shell: bash
+      - run: npm i
+      - run: npm install -g protractor
+      - run: sudo chmod 0755 /usr/local/share/chromedriver-linux64
+      - run: protractor conf.js
 
-    - name: Notify via Discord (Failure)
-      if: failure()
-      run: |
-        curl -H "Content-Type: application/json" \
-        -X POST -d '{
-          "embeds": [{
-            "title": "❌ Proxy Update Failed",
-            "description": "An error occurred during the proxy update job.",
-            "color": 15158332,
-            "fields": [
-              {"name": "Repository", "value": "${{ github.repository }}", "inline": true},
-              {"name": "Branch", "value": "${{ github.ref_name }}", "inline": true},
-              {"name": "Workflow", "value": "${{ github.workflow }}", "inline": true},
-              {"name": "Time", "value": "'"$(date +"%Y-%m-%d %H:%M:%S")"'"}
-            ],
-            "footer": {"text": "Skiddle Bot | GitHub Actions"}
-          }]
-        }' ${{ secrets.DISCORD_WEBHOOK }}
-      shell: bash
+      - name: Commit files
+        run: |
+          git config --local user.email "165562787+skiddle-bot@users.noreply.github.com"
+          git config --local user.name "skiddle-bot"
+          git commit -a -m "Updated Proxies" || echo "No changes to commit"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.BOT_GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+        env:
+          CI: true
+
+      - name: Notify via Discord (Success)
+        if: success()
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST -d '{
+            "embeds": [{
+              "title": "✅ Proxy Update Success",
+              "description": "The proxy update job has completed successfully.",
+              "color": 3066993,
+              "fields": [
+                {"name": "Repository", "value": "${{ github.repository }}", "inline": true},
+                {"name": "Branch", "value": "${{ github.ref_name }}", "inline": true},
+                {"name": "Workflow", "value": "${{ github.workflow }}", "inline": true},
+                {"name": "Time", "value": "'"$(date +"%Y-%m-%d %H:%M:%S")"'"}
+              ],
+              "footer": {"text": "Skiddle Bot | GitHub Actions"}
+            }]
+          }' ${{ secrets.DISCORD_WEBHOOK }}
+        shell: bash
+
+      - name: Notify via Discord (Failure)
+        if: failure()
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST -d '{
+            "embeds": [{
+              "title": "❌ Proxy Update Failed",
+              "description": "An error occurred during the proxy update job.",
+              "color": 15158332,
+              "fields": [
+                {"name": "Repository", "value": "${{ github.repository }}", "inline": true},
+                {"name": "Branch", "value": "${{ github.ref_name }}", "inline": true},
+                {"name": "Workflow", "value": "${{ github.workflow }}", "inline": true},
+                {"name": "Time", "value": "'"$(date +"%Y-%m-%d %H:%M:%S")"'"}
+              ],
+              "footer": {"text": "Skiddle Bot | GitHub Actions"}
+            }]
+          }' ${{ secrets.DISCORD_WEBHOOK }}
+        shell: bash
