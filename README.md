@@ -1,4 +1,4 @@
-# ⭐️ A proxy scraper made using Protractor | Proxy list - Updates every 3 hours 🔥
+# ⭐️ A proxy scraper made using Protractor | Proxy list - Updates every hours 🔥
 
 [![Every 10 Minutes Update](https://github.com/Skiddle-ID/proxylist/actions/workflows/nodejs.yml/badge.svg?branch=master)](https://github.com/Skiddle-ID/proxylist/actions/workflows/nodejs.yml)
 ![GitHub](https://img.shields.io/github/license/Skiddle-ID/proxylist)
