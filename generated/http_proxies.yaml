@@ -118,7 +118,7 @@
   country: Brazil - Fortaleza
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 45.186.248.12
+- ip: 45.186.248.120
   port: "3128"
   country: Brazil - Erechim
   anonymity: Transparent
@@ -138,14 +138,14 @@
   country: Brazil - Erechim
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 45.4.58.223
-  port: "8080"
-  country: Brazil - Recife
-  anonymity: Transparent
-  type: HTTP/HTTPS
 - ip: 201.65.173.179
   port: "8080"
   country: Brazil - Brasília
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 45.4.58.223
+  port: "8080"
+  country: Brazil - Recife
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 186.211.157.19
@@ -238,7 +238,7 @@
   country: Brazil - Massapê
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 149.40.26.240
+- ip: 149.40.26.24
   port: "8080"
   country: Brazil - São Paulo
   anonymity: Transparent
@@ -283,7 +283,12 @@
   country: Chile - Villa Alegre
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 204.199.140.2
+- ip: 204.199.140.14
+  port: "999"
+  country: Chile - Santiago
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 204.199.140.20
   port: "999"
   country: Chile - Santiago
   anonymity: Transparent
@@ -318,19 +323,19 @@
   country: Chile - Pirque
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 204.199.140.15
-  port: "999"
-  country: Chile - Santiago
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 39.102.214.192
-  port: "9098"
-  country: China - Beijing
+- ip: 8.148.20.126
+  port: "80"
+  country: China - Hangzhou
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.119.22.156
-  port: "10000"
-  country: China - Shenzhen
+- ip: 121.43.146.222
+  port: "8081"
+  country: China - Hangzhou
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 120.26.52.35
+  port: "3128"
+  country: China - Hangzhou
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 47.104.27.249
@@ -338,49 +343,9 @@
   country: China - Qingdao
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.99.112.148
-  port: "8888"
-  country: China - Hangzhou
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.130.34.44
-  port: "8060"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 110.16.77.99
-  port: "8082"
-  country: China
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 39.102.213.50
-  port: "3129"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 39.102.213.5
-  port: "3333"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.130.34.44
-  port: "3129"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 39.104.59.56
-  port: "8888"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 39.104.27.89
-  port: "8001"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 36.111.205.203
-  port: "6666"
-  country: China - Shanghai
+- ip: 47.119.22.156
+  port: "10000"
+  country: China - Shenzhen
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 47.109.110.100
@@ -388,8 +353,23 @@
   country: China - Chengdu
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 39.102.213.213
+  port: "10000"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 39.102.210.176
+  port: "8888"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 101.200.158.109
   port: "8808"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 39.102.208.236
+  port: "10000"
   country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
@@ -398,24 +378,19 @@
   country: China - Shenzhen
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 39.102.208.236
-  port: "10000"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 47.121.183.107
   port: "4006"
   country: China - Shenzhen
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 47.108.159.113
+  port: "18080"
+  country: China - Chengdu
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 47.116.126.57
   port: "1111"
   country: China - Shanghai
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 39.102.210.176
-  port: "8888"
-  country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 39.102.209.163
@@ -428,23 +403,8 @@
   country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 222.59.173.105
-  port: "45053"
-  country: China
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 39.102.213.213
-  port: "10000"
-  country: China - Beijing
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.108.159.113
-  port: "18080"
-  country: China - Chengdu
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.92.152.43
-  port: "8080"
+- ip: 39.102.214.192
+  port: "9098"
   country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
@@ -453,24 +413,19 @@
   country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 39.102.213.187
+  port: "1080"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 47.92.152.43
   port: "8090"
   country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 139.224.186.221
-  port: "9080"
-  country: China - Shanghai
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 123.128.12.93
-  port: "9055"
-  country: China
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 36.111.205.239
-  port: "6666"
-  country: China - Shanghai
+- ip: 47.92.152.43
+  port: "8080"
+  country: China - Beijing
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 47.99.112.148
@@ -478,34 +433,99 @@
   country: China - Hangzhou
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.148.20.126
+- ip: 106.14.91.83
+  port: "9098"
+  country: China - Shanghai
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.99.112.148
+  port: "8888"
+  country: China - Hangzhou
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 106.14.91.83
+  port: "7890"
+  country: China - Shanghai
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 39.102.213.50
+  port: "3333"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 39.102.213.50
+  port: "3129"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.130.34.44
+  port: "3129"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.130.34.44
+  port: "8002"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 101.201.225.47
   port: "80"
-  country: China - Hangzhou
-  anonymity: Elite
+  country: China - Beijing
+  anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 121.43.146.222
-  port: "8081"
-  country: China - Hangzhou
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 114.215.127.92
-  port: "8081"
-  country: China - Qingdao
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.121.183.107
-  port: "8443"
+- ip: 47.121.182.36
+  port: "20002"
   country: China - Shenzhen
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 201.184.128.170
+- ip: 39.102.211.162
+  port: "8090"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 39.104.27.89
+  port: "8001"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.108.159.113
+  port: "9098"
+  country: China - Chengdu
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 222.128.44.7
+  port: "8118"
+  country: China - Beijing
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 209.14.98.6
   port: "8080"
-  country: Colombia - Medellín
+  country: Colombia
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 209.14.98.5
   port: "8080"
   country: Colombia
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 170.239.207.178
+  port: "999"
+  country: Colombia - Bogotá
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 38.51.243.189
+  port: "999"
+  country: Colombia - Túquerres
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 190.145.227.114
+  port: "999"
+  country: Colombia - Medellín
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 201.184.128.170
+  port: "8080"
+  country: Colombia - Medellín
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 131.100.48.73
@@ -538,29 +558,14 @@
   country: Colombia - Granada
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 38.51.243.189
-  port: "999"
-  country: Colombia - Túquerres
-  anonymity: Transparent
-  type: HTTP/HTTPS
 - ip: 181.78.73.53
   port: "999"
   country: Colombia - Medellín
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 209.14.98.6
-  port: "8080"
-  country: Colombia
-  anonymity: Transparent
-  type: HTTP/HTTPS
 - ip: 190.60.60.220
   port: "8080"
   country: Colombia - Cereté
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 170.239.207.178
-  port: "999"
-  country: Colombia - Bogotá
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 190.85.43.6
@@ -598,19 +603,14 @@
   country: Colombia - Fortul
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 190.145.227.114
-  port: "999"
-  country: Colombia - Medellín
+- ip: 181.79.81.104
+  port: "8080"
+  country: Colombia - Bogotá
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 170.0.11.11
   port: "8080"
   country: Colombia - Fonseca
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 181.79.81.104
-  port: "8080"
-  country: Colombia - Bogotá
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 186.31.197.103
@@ -638,6 +638,11 @@
   country: Colombia - Medellín
   anonymity: Transparent
   type: HTTP/HTTPS
+- ip: 145.239.196.123
+  port: "80"
+  country: France
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 51.91.109.83
   port: "80"
   country: France
@@ -652,11 +657,6 @@
   port: "3128"
   country: France
   anonymity: Anonymous
-  type: HTTP/HTTPS
-- ip: 145.239.196.123
-  port: "80"
-  country: France
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 51.159.66.158
   port: "3128"
@@ -698,8 +698,48 @@
   country: France - Paris
   anonymity: Transparent
   type: HTTP/HTTPS
+- ip: 8.209.96.245
+  port: "45"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 81.169.213.169
+  port: "8888"
+  country: Germany
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.211.49.86
+  port: "161"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.211.49.86
+  port: "3129"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.211.49.86
+  port: "2000"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 47.91.89.3
   port: "80"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.211.42.167
+  port: "8081"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.211.51.115
+  port: "8008"
+  country: Germany - Frankfurt am Main
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.211.51.115
+  port: "84"
   country: Germany - Frankfurt am Main
   anonymity: Elite
   type: HTTP/HTTPS
@@ -710,11 +750,6 @@
   type: HTTP/HTTPS
 - ip: 45.12.254.22
   port: "3128"
-  country: Germany - Frankfurt am Main
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.211.42.167
-  port: "8081"
   country: Germany - Frankfurt am Main
   anonymity: Elite
   type: HTTP/HTTPS
@@ -736,16 +771,6 @@
 - ip: 8.211.51.115
   port: "1081"
   country: Germany - Frankfurt am Main
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.211.49.86
-  port: "161"
-  country: Germany - Frankfurt am Main
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 81.169.213.169
-  port: "8888"
-  country: Germany
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.211.51.115
@@ -773,34 +798,14 @@
   country: Germany
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 8.211.49.86
-  port: "3129"
-  country: Germany - Frankfurt am Main
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.211.49.86
-  port: "2000"
-  country: Germany - Frankfurt am Main
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.209.96.245
-  port: "45"
-  country: Germany - Frankfurt am Main
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 89.58.57.45
-  port: "80"
-  country: Germany - Nuremberg
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 89.58.55.33
   port: "80"
   country: Germany - Nuremberg
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.211.51.115
-  port: "8008"
-  country: Germany - Frankfurt am Main
+- ip: 89.58.57.45
+  port: "80"
+  country: Germany - Nuremberg
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 80.74.54.148
@@ -868,13 +873,33 @@
   country: Germany - Falkenstein
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.211.51.115
-  port: "4145"
-  country: Germany - Frankfurt am Main
-  anonymity: Elite
+- ip: 47.243.92.199
+  port: "3128"
+  country: Hong Kong - Hong Kong
+  anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 47.238.60.156
   port: "18080"
+  country: Hong Kong - Hong Kong
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 20.205.16.149
+  port: "3128"
+  country: Hong Kong - Hong Kong
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 47.238.134.126
+  port: "82"
+  country: Hong Kong - Hong Kong
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.238.60.156
+  port: "45"
+  country: Hong Kong - Hong Kong
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.238.128.246
+  port: "45"
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
@@ -887,11 +912,6 @@
   port: "10002"
   country: Hong Kong - Hong Kong
   anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.243.92.199
-  port: "3128"
-  country: Hong Kong - Hong Kong
-  anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 42.200.253.116
   port: "8080"
@@ -908,11 +928,6 @@
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.238.134.126
-  port: "82"
-  country: Hong Kong - Hong Kong
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 47.238.60.156
   port: "3128"
   country: Hong Kong - Hong Kong
@@ -925,11 +940,6 @@
   type: HTTP/HTTPS
 - ip: 47.238.60.156
   port: "88"
-  country: Hong Kong - Hong Kong
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.238.60.156
-  port: "45"
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
@@ -978,11 +988,6 @@
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 20.205.16.149
-  port: "3128"
-  country: Hong Kong - Hong Kong
-  anonymity: Transparent
-  type: HTTP/HTTPS
 - ip: 8.210.17.35
   port: "8001"
   country: Hong Kong - Hong Kong
@@ -1019,12 +1024,12 @@
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.210.17.35
-  port: "14"
+  port: "119"
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.210.17.35
-  port: "119"
+  port: "14"
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1043,24 +1048,24 @@
   country: Hong Kong - Hong Kong
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.76.144.139
-  port: "5060"
-  country: Hong Kong - Hong Kong
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 103.137.218.166
-  port: "83"
-  country: India - Bhagalpur
-  anonymity: Transparent
-  type: HTTP/HTTPS
 - ip: 150.242.12.169
   port: "80"
   country: India
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 122.185.198.242
+  port: "7999"
+  country: India - Mumbai
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 103.83.80.67
   port: "8080"
   country: India
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.137.218.166
+  port: "83"
+  country: India - Bhagalpur
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 103.26.110.125
@@ -1128,7 +1133,7 @@
   country: India
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 103.48.68.11
+- ip: 103.48.68.110
   port: "84"
   country: India - Hyderabad
   anonymity: Transparent
@@ -1158,7 +1163,7 @@
   country: India
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 103.170.64.200
+- ip: 103.170.64.20
   port: "80"
   country: India
   anonymity: Transparent
@@ -1168,19 +1173,69 @@
   country: India
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 202.51.196.226
-  port: "8080"
-  country: Indonesia - Bogor
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.176.96.136
-  port: "8080"
-  country: Indonesia - Karawang
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.122.64.201
-  port: "8080"
+- ip: 157.10.97.119
+  port: "8181"
   country: Indonesia
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.165.128.171
+  port: "8080"
+  country: Indonesia - Jakarta
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.39.51.207
+  port: "8080"
+  country: Indonesia - Kuningan
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.133.26.11
+  port: "8080"
+  country: Indonesia - Sukabumi
+  anonymity: Anonymous
+  type: HTTP/HTTPS
+- ip: 45.123.142.69
+  port: "8181"
+  country: Indonesia
+  anonymity: Anonymous
+  type: HTTP/HTTPS
+- ip: 103.162.63.163
+  port: "8080"
+  country: Indonesia - Tasikmalaya
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 8.215.12.103
+  port: "8010"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 103.176.96.243
+  port: "1111"
+  country: Indonesia
+  anonymity: Anonymous
+  type: HTTP/HTTPS
+- ip: 8.215.12.103
+  port: "3128"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.215.31.146
+  port: "1347"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 203.190.117.10
+  port: "8076"
+  country: Indonesia
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 202.58.77.77
+  port: "1111"
+  country: Indonesia
+  anonymity: Anonymous
+  type: HTTP/HTTPS
+- ip: 103.191.196.96
+  port: "8080"
+  country: Indonesia - Indramayu
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 8.215.15.163
@@ -1188,25 +1243,80 @@
   country: Indonesia - Jakarta
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 149.129.226.9
+  port: "8081"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.215.3.250
+  port: "5060"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.215.3.250
+  port: "87"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 149.129.226.9
+  port: "4145"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 103.172.42.121
+  port: "8086"
+  country: Indonesia
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.169.254.45
+  port: "6080"
+  country: Indonesia - Banyuwangi
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.189.197.117
+  port: "3125"
+  country: Indonesia - Serang
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.122.0.162
+  port: "8181"
+  country: Indonesia - Palembang
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.176.96.136
+  port: "8080"
+  country: Indonesia - Karawang
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 8.215.12.103
+  port: "88"
+  country: Indonesia - Jakarta
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 202.51.196.226
+  port: "8080"
+  country: Indonesia - Bogor
+  anonymity: Transparent
+  type: HTTP/HTTPS
+- ip: 103.122.64.201
+  port: "8080"
+  country: Indonesia
+  anonymity: Transparent
+  type: HTTP/HTTPS
 - ip: 36.64.162.194
   port: "8080"
   country: Indonesia - Surabaya
   anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 103.238.232.158
-  port: "8080"
-  country: Indonesia
-  anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 103.180.118.184
   port: "8080"
   country: Indonesia
   anonymity: Anonymous
   type: HTTP/HTTPS
-- ip: 149.129.226.9
-  port: "8081"
-  country: Indonesia - Jakarta
-  anonymity: Elite
+- ip: 103.238.232.158
+  port: "8080"
+  country: Indonesia
+  anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 103.18.77.25
   port: "1111"
@@ -1233,115 +1343,25 @@
   country: Indonesia - Jakarta
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 103.39.51.207
-  port: "8080"
-  country: Indonesia - Kuningan
-  anonymity: Transparent
-  type: HTTP/HTTPS
 - ip: 103.154.118.245
   port: "8080"
   country: Indonesia
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 103.157.79.82
-  port: "1111"
-  country: Indonesia - Jakarta
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.215.12.103
-  port: "8010"
-  country: Indonesia - Jakarta
+- ip: 8.221.139.222
+  port: "8080"
+  country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 103.172.42.121
-  port: "8086"
-  country: Indonesia
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.215.12.103
+- ip: 8.221.138.111
   port: "3128"
-  country: Indonesia - Jakarta
+  country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 103.80.88.77
-  port: "8080"
-  country: Indonesia - Gorontalo
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 157.15.144.80
-  port: "8080"
-  country: Indonesia - Cilacap
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 203.190.117.100
-  port: "8076"
-  country: Indonesia
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.247.23.53
-  port: "4317"
-  country: Indonesia - Cilacap
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.166.8.238
-  port: "1080"
-  country: Indonesia - Bekasi
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.169.26.114
-  port: "8080"
-  country: Indonesia - Tuban Timur
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.215.31.146
-  port: "1347"
-  country: Indonesia - Jakarta
+- ip: 8.221.141.88
+  port: "11"
+  country: Japan - Tokyo
   anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 103.52.114.95
-  port: "3128"
-  country: Indonesia
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.155.190.250
-  port: "8080"
-  country: Indonesia - Blitar
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 117.54.114.32
-  port: "80"
-  country: Indonesia - Jakarta
-  anonymity: Anonymous
-  type: HTTP/HTTPS
-- ip: 103.81.194.17
-  port: "8080"
-  country: Indonesia - Bogor
-  anonymity: Anonymous
-  type: HTTP/HTTPS
-- ip: 8.215.3.250
-  port: "5060"
-  country: Indonesia - Jakarta
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 149.129.255.179
-  port: "4002"
-  country: Indonesia - Jakarta
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.215.3.250
-  port: "87"
-  country: Indonesia - Jakarta
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 36.66.121.131
-  port: "8080"
-  country: Indonesia - Jakarta
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 103.76.151.74
-  port: "8089"
-  country: Indonesia - Jakarta
-  anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 8.221.141.88
   port: "9507"
@@ -1358,8 +1378,23 @@
   country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 8.221.139.222
+  port: "443"
+  country: Japan - Tokyo
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.91.29.151
+  port: "8081"
+  country: Japan - Tokyo
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 8.221.138.111
   port: "31433"
+  country: Japan - Tokyo
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.91.29.151
+  port: "91"
   country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1373,30 +1408,10 @@
   country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.91.29.151
-  port: "8081"
-  country: Japan - Tokyo
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 20.27.15.111
   port: "8561"
   country: Japan - Tokyo
   anonymity: Anonymous
-  type: HTTP/HTTPS
-- ip: 8.221.139.222
-  port: "443"
-  country: Japan - Tokyo
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.221.141.88
-  port: "11"
-  country: Japan - Tokyo
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.221.138.111
-  port: "3128"
-  country: Japan - Tokyo
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.221.141.88
   port: "8443"
@@ -1415,11 +1430,6 @@
   type: HTTP/HTTPS
 - ip: 47.91.29.151
   port: "41"
-  country: Japan - Tokyo
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.221.139.222
-  port: "8080"
   country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1445,11 +1455,6 @@
   type: HTTP/HTTPS
 - ip: 47.74.46.81
   port: "98"
-  country: Japan - Tokyo
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.91.29.151
-  port: "91"
   country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1483,15 +1488,15 @@
   country: Japan - Tokyo
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 20.27.11.248
-  port: "8561"
-  country: Japan - Tokyo
-  anonymity: Anonymous
-  type: HTTP/HTTPS
 - ip: 8.221.139.222
   port: "17"
   country: Japan - Tokyo
   anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 20.27.11.248
+  port: "8561"
+  country: Japan - Tokyo
+  anonymity: Anonymous
   type: HTTP/HTTPS
 - ip: 8.221.141.88
   port: "4145"
@@ -1603,7 +1608,7 @@
   country: Poland - Ostrowiec Świętokrzyski
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 94.75.76.1
+- ip: 94.75.76.10
   port: "8080"
   country: Poland - Warsaw
   anonymity: Transparent
@@ -1643,6 +1648,26 @@
   country: Poland - Wroclaw
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 185.103.134.36
+  port: "8080"
+  country: Russia
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 109.194.34.246
+  port: "8082"
+  country: Russia - Seversk
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 109.95.220.45
+  port: "8080"
+  country: Russia
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 95.53.246.137
+  port: "3128"
+  country: Russia - Vologda
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 31.211.69.52
   port: "3128"
   country: Russia - Tomsk
@@ -1653,20 +1678,10 @@
   country: Russia
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 109.194.34.246
-  port: "8082"
-  country: Russia - Seversk
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 89.109.43.125
   port: "3128"
   country: Russia - Nizhniy Novgorod
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 109.95.220.45
-  port: "8080"
-  country: Russia
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 94.232.11.178
   port: "46449"
@@ -1702,11 +1717,6 @@
   port: "8080"
   country: Russia - Irkutsk
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 185.103.134.36
-  port: "8080"
-  country: Russia
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 91.236.238.103
   port: "8080"
@@ -1758,8 +1768,28 @@
   country: Serbia
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 8.220.205.172
-  port: "80"
+- ip: 8.220.204.215
+  port: "9200"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.134.213
+  port: "1111"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.156.191
+  port: "10000"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.156.191
+  port: "20"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.134.213
+  port: "5060"
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1779,12 +1809,27 @@
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.220.204.215
-  port: "9200"
+  port: "8889"
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.220.204.215
-  port: "8889"
+- ip: 8.220.205.172
+  port: "80"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.134.213
+  port: "20"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.134.213
+  port: "89"
+  country: South Korea - Seoul
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.156.191
+  port: "199"
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1794,27 +1839,12 @@
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.213.134.213
-  port: "5060"
-  country: South Korea - Seoul
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.213.134.213
   port: "6666"
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.213.156.191
-  port: "10000"
-  country: South Korea - Seoul
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.213.156.191
   port: "85"
-  country: South Korea - Seoul
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.213.156.191
-  port: "20"
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1830,11 +1860,6 @@
   type: HTTP/HTTPS
 - ip: 8.213.128.6
   port: "3132"
-  country: South Korea - Seoul
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.213.134.213
-  port: "1111"
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
@@ -1918,21 +1943,6 @@
   country: South Korea - Seoul
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 220.88.5.106
-  port: "80"
-  country: South Korea - Suwon
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 222.98.121.226
-  port: "80"
-  country: South Korea - Suwon
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.220.205.172
-  port: "9098"
-  country: South Korea - Seoul
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 210.61.216.63
   port: "60808"
   country: Taiwan - Chang-hua
@@ -1978,6 +1988,41 @@
   country: Thailand - Bangkok
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 8.213.195.191
+  port: "100"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.222.247
+  port: "10000"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.215.187
+  port: "202"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.215.187
+  port: "4002"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.195.191
+  port: "9080"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.222.157
+  port: "8081"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 8.213.215.187
+  port: "143"
+  country: Thailand - Bangkok
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 106.0.168.138
   port: "8080"
   country: Thailand
@@ -1988,30 +2033,10 @@
   country: Thailand - Bangkok
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.213.195.191
-  port: "100"
-  country: Thailand - Bangkok
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.213.222.157
-  port: "8081"
-  country: Thailand - Bangkok
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 180.180.175.11
   port: "8080"
   country: Thailand - Krathum Baen
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.213.195.191
-  port: "9080"
-  country: Thailand - Bangkok
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.213.222.247
-  port: "10000"
-  country: Thailand - Bangkok
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 101.109.119.24
   port: "8080"
@@ -2037,11 +2062,6 @@
   port: "8080"
   country: Thailand
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.213.215.187
-  port: "202"
-  country: Thailand - Bangkok
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 110.164.175.110
   port: "8080"
@@ -2082,11 +2102,6 @@
   port: "8080"
   country: Thailand
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 8.213.215.187
-  port: "4002"
-  country: Thailand - Bangkok
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 203.150.128.65
   port: "8080"
@@ -2143,11 +2158,6 @@
   country: Thailand - Bangkok
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.213.197.208
-  port: "31433"
-  country: Thailand - Bangkok
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 176.105.220.74
   port: "3129"
   country: Ukraine - Kyiv
@@ -2168,13 +2178,13 @@
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.211.195.139
-  port: "4100"
+- ip: 8.211.194.85
+  port: "8081"
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.211.194.85
-  port: "8081"
+- ip: 8.211.195.139
+  port: "8080"
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
@@ -2183,9 +2193,9 @@
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 134.209.29.120
+- ip: 8.211.200.183
   port: "80"
-  country: United Kingdom - Slough
+  country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 134.209.29.120
@@ -2198,9 +2208,14 @@
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 8.211.200.183
-  port: "80"
+- ip: 8.211.195.139
+  port: "4100"
   country: United Kingdom - London
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 134.209.29.120
+  port: "80"
+  country: United Kingdom - Slough
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 8.211.194.78
@@ -2220,11 +2235,6 @@
   type: HTTP/HTTPS
 - ip: 8.211.195.139
   port: "8889"
-  country: United Kingdom - London
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 8.211.195.139
-  port: "8080"
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
@@ -2333,9 +2343,29 @@
   country: United Kingdom - London
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.90.167.27
-  port: "9050"
+- ip: 167.99.236.14
+  port: "80"
+  country: United States - North Bergen
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.74.38
+  port: "5060"
   country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.74.38
+  port: "8047"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.87.74
+  port: "5060"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 209.97.150.167
+  port: "80"
+  country: United States - Clifton
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 47.90.167.27
@@ -2343,22 +2373,12 @@
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 34.216.224.9
-  port: "40715"
-  country: United States - Boardman
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.254.36.213
-  port: "80"
+- ip: 47.90.167.27
+  port: "9050"
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.254.36.213
-  port: "8443"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.254.36.213
+- ip: 4.149.153.123
   port: "3128"
   country: United States
   anonymity: Elite
@@ -2373,6 +2393,61 @@
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 47.254.36.213
+  port: "123"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.87.74
+  port: "6379"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.90.149.238
+  port: "41"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.87.74
+  port: "20125"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.87.199
+  port: "5060"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.252.11.233
+  port: "14186"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.251.87.199
+  port: "8008"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 34.216.224.9
+  port: "40715"
+  country: United States - Boardman
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.254.36.213
+  port: "3128"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.254.36.213
+  port: "8443"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
+- ip: 47.254.36.213
+  port: "80"
+  country: United States
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 47.251.74.38
   port: "8081"
   country: United States
@@ -2383,32 +2458,12 @@
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.252.11.233
-  port: "14186"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 142.93.202.13
+- ip: 142.93.202.130
   port: "3128"
   country: United States - North Bergen
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 47.251.87.199
-  port: "5060"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.90.149.238
-  port: "41"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 209.97.150.167
-  port: "80"
-  country: United States - Clifton
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 12.218.209.130
+- ip: 12.218.209.13
   port: "53281"
   country: United States - San Jose
   anonymity: Elite
@@ -2423,18 +2478,8 @@
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 4.149.153.123
-  port: "3128"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 47.252.18.37
   port: "10002"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.254.36.213
-  port: "123"
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
@@ -2448,11 +2493,6 @@
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.251.87.199
-  port: "8008"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
 - ip: 207.246.234.115
   port: "4669"
   country: United States - Clovis
@@ -2462,16 +2502,6 @@
   port: "8246"
   country: United States - Central City
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 47.251.87.74
-  port: "5060"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.251.87.74
-  port: "20125"
-  country: United States
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 47.251.87.199
   port: "8080"
@@ -2484,29 +2514,14 @@
   anonymity: Elite
   type: HTTP/HTTPS
 - ip: 47.251.74.38
-  port: "5060"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.251.74.38
-  port: "8047"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.251.87.74
-  port: "1080"
-  country: United States
-  anonymity: Elite
-  type: HTTP/HTTPS
-- ip: 47.251.74.38
   port: "8888"
   country: United States
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 47.251.87.74
-  port: "10443"
-  country: United States
-  anonymity: Elite
+- ip: 186.167.112.91
+  port: "999"
+  country: Venezuela - Valencia
+  anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 45.184.103.110
   port: "999"
@@ -2521,11 +2536,6 @@
 - ip: 38.7.2.93
   port: "999"
   country: Venezuela - Maracaibo
-  anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 186.167.112.91
-  port: "999"
-  country: Venezuela - Valencia
   anonymity: Transparent
   type: HTTP/HTTPS
 - ip: 200.8.19.122
@@ -2558,6 +2568,11 @@
   country: Iran - Tehran
   anonymity: Elite
   type: HTTP/HTTPS
+- ip: 46.209.217.108
+  port: "8088"
+  country: Iran
+  anonymity: Elite
+  type: HTTP/HTTPS
 - ip: 37.152.183.29
   port: "3128"
   country: Iran
@@ -2588,7 +2603,7 @@
   country: Iran
   anonymity: Elite
   type: HTTP/HTTPS
-- ip: 46.245.123.10
+- ip: 46.245.123.1
   port: "8080"
   country: Iran
   anonymity: Transparent
@@ -2602,11 +2617,6 @@
   port: "8080"
   country: Iran
   anonymity: Transparent
-  type: HTTP/HTTPS
-- ip: 46.209.217.108
-  port: "8088"
-  country: Iran
-  anonymity: Elite
   type: HTTP/HTTPS
 - ip: 194.39.254.35
   port: "80"
@@ -2743,8 +2753,13 @@
   country: Bulgaria
   anonymity: Transparent
   type: HTTP/HTTPS
-- ip: 47.252.29.28
-  port: "11222"
+- ip: 139.59.1.14
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 67.43.236.18
+  port: "17781"
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
@@ -2753,10 +2768,25 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 104.206.98.154
-  port: "3128"
+- ip: 20.210.39.153
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 219.93.101.62
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 185.14.68.130
+  port: "8090"
   country: elite proxy
   anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 20.78.26.206
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
   type: HTTP/HTTPS
 - ip: 133.18.234.13
   port: "80"
@@ -2767,6 +2797,11 @@
   port: "80"
   country: anonymous
   anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 46.47.197.210
+  port: "3128"
+  country: elite proxy
+  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 190.58.248.86
   port: "80"
@@ -2793,11 +2828,6 @@
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
-- ip: 198.7.62.199
-  port: "3128"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
 - ip: 192.73.244.36
   port: "80"
   country: elite proxy
@@ -2807,6 +2837,11 @@
   port: "80"
   country: anonymous
   anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 72.10.164.178
+  port: "2493"
+  country: elite proxy
+  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 213.157.6.50
   port: "80"
@@ -2843,8 +2878,18 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 143.42.66.91
+- ip: 108.141.130.146
   port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 167.71.177.246
+  port: "2525"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 198.98.48.76
+  port: "31280"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
@@ -2853,13 +2898,8 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 44.232.235.167
+- ip: 211.230.49.122
   port: "3128"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 41.191.203.162
-  port: "80"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
@@ -2868,18 +2908,43 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 51.75.76.143
-  port: "8888"
-  country: elite proxy
-  anonymity: elite proxy
+- ip: 89.58.55.33
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
   type: HTTP/HTTPS
 - ip: 213.143.113.82
   port: "80"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
+- ip: 89.58.57.45
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 147.75.83.114
+  port: "443"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 41.89.56.116
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
 - ip: 200.174.198.32
   port: "8888"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 51.159.226.86
+  port: "443"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 203.202.241.4
+  port: "3128"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
@@ -2897,6 +2962,451 @@
   port: "80"
   country: anonymous
   anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 160.119.58.4
+  port: "8088"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 74.62.179.122
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 202.40.186.66
+  port: "43773"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 172.237.80.233
+  port: "8080"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 47.252.29.28
+  port: "11222"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 40.192.38.216
+  port: "5678"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 67.43.236.20
+  port: "3209"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 219.93.101.63
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 123.30.154.171
+  port: "7777"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 198.7.62.199
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 81.169.213.169
+  port: "8888"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 40.192.100.189
+  port: "8141"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 47.251.57.165
+  port: "1080"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 65.108.203.36
+  port: "18080"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 47.251.87.199
+  port: "9098"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 51.254.78.223
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 197.221.234.253
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 58.69.61.79
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 14.170.154.193
+  port: "19132"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 5.45.126.128
+  port: "8080"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 108.170.12.13
+  port: "80"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 46.55.253.58
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 181.78.73.53
+  port: "999"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 110.164.175.110
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 203.150.128.65
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 77.46.138.38
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 121.200.48.58
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 37.98.223.213
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 47.247.141.78
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 152.32.190.98
+  port: "3128"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 36.67.114.94
+  port: "8187"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 94.75.76.3
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 170.245.132.86
+  port: "999"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 85.117.56.147
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 161.49.215.28
+  port: "10101"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 89.135.59.65
+  port: "8090"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 124.105.186.206
+  port: "8181"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 78.134.20.48
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 52.188.28.218
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 94.138.223.202
+  port: "3128"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 20.27.15.49
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 35.197.89.213
+  port: "80"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 143.42.66.91
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 47.74.157.194
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 41.191.203.162
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 44.215.73.168
+  port: "8118"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 51.75.76.143
+  port: "8888"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 8.219.97.248
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 198.49.68.80
+  port: "80"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 219.93.101.60
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 97.74.87.226
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 223.205.79.228
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 208.67.28.29
+  port: "58090"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 103.41.250.97
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 20.210.76.104
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 20.78.118.91
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 18.60.222.217
+  port: "57032"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 20.27.14.220
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 20.27.11.248
+  port: "8561"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 178.208.75.202
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 18.188.141.177
+  port: "1145"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 104.206.98.154
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 176.126.103.194
+  port: "44214"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 27.116.41.156
+  port: "8470"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 42.98.208.100
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 112.203.49.195
+  port: "8082"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 139.99.237.62
+  port: "80"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 185.103.134.36
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 40.192.27.104
+  port: "16825"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 34.216.224.9
+  port: "40715"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 103.148.39.50
+  port: "82"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 94.79.152.14
+  port: "80"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 103.141.70.18
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 91.121.106.55
+  port: "4444"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 208.102.24.225
+  port: "8888"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 101.109.245.157
+  port: "3128"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 220.88.5.106
+  port: "80"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 51.222.158.98
+  port: "3128"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 202.58.73.246
+  port: "1111"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 20.204.175.243
+  port: "3128"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 119.235.19.10
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 102.213.216.98
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 103.165.128.171
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 103.193.144.223
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 31.135.214.29
+  port: "8026"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 139.99.238.95
+  port: "8080"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 121.101.133.22
+  port: "8999"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 181.78.75.13
+  port: "999"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 44.232.235.167
+  port: "3128"
+  country: elite proxy
+  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 103.156.96.67
   port: "8088"
@@ -2993,16 +3503,6 @@
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
-- ip: 219.93.101.63
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 219.93.101.62
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
 - ip: 198.199.86.11
   port: "80"
   country: anonymous
@@ -3023,20 +3523,10 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 47.74.157.194
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
 - ip: 41.191.203.167
   port: "80"
   country: anonymous
   anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 44.215.73.168
-  port: "8118"
-  country: elite proxy
-  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 37.59.110.73
   port: "80"
@@ -3048,75 +3538,10 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 89.58.57.45
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 147.75.83.114
-  port: "443"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 41.89.56.116
-  port: "3128"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 172.237.80.233
-  port: "8080"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 51.159.226.86
-  port: "443"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 176.126.103.194
-  port: "44214"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 97.74.87.226
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 123.30.154.171
-  port: "7777"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 35.197.89.213
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
 - ip: 159.65.245.255
   port: "80"
   country: elite proxy
   anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 108.141.130.146
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 198.98.48.76
-  port: "31280"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 89.58.55.33
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 197.221.234.253
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
   type: HTTP/HTTPS
 - ip: 61.118.38.234
   port: "60808"
@@ -3193,33 +3618,8 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 8.219.97.248
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 185.14.68.130
-  port: "8090"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 94.138.223.202
-  port: "3128"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 211.230.49.122
-  port: "3128"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
 - ip: 219.65.73.81
   port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 203.202.241.4
-  port: "3128"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
@@ -3368,16 +3768,6 @@
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
-- ip: 52.188.28.218
-  port: "3128"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 167.71.177.246
-  port: "2525"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
 - ip: 89.58.15.147
   port: "3128"
   country: elite proxy
@@ -3395,11 +3785,6 @@
   type: HTTP/HTTPS
 - ip: 67.43.236.21
   port: "31907"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 47.251.57.165
-  port: "1080"
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
@@ -3508,11 +3893,6 @@
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
-- ip: 5.45.126.128
-  port: "8080"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
 - ip: 195.114.209.50
   port: "80"
   country: elite proxy
@@ -3532,16 +3912,6 @@
   port: "3128"
   country: anonymous
   anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 40.192.38.216
-  port: "5678"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 18.188.141.177
-  port: "1145"
-  country: elite proxy
-  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 36.93.214.253
   port: "8080"
@@ -3879,366 +4249,6 @@
   anonymity: transparent
   type: HTTP/HTTPS
 - ip: 212.119.41.145
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.31.127.88
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.0.132
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 194.110.150.200
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 178.20.212.58
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 140.235.171.253
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.136.25.92
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 167.253.16.122
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.3.184
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 185.77.220.249
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 91.132.125.115
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 194.70.234.160
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 199.96.165.208
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 93.177.94.155
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 167.253.18.106
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.9.14
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 91.132.198.27
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.9.156
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.233.211.219
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 37.72.141.121
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 194.180.236.102
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 93.177.95.40
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.163.207.185
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.147.233.12
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 88.218.46.187
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.233.211.152
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.147.232.48
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.136.24.149
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 37.72.141.109
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.31.127.41
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 167.253.18.101
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.202.16.61
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.233.218.141
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.0.242
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 194.110.150.15
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 185.77.221.74
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.3.98
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 23.27.196.150
-  port: "6519"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 91.246.51.174
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 166.88.178.88
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 212.119.41.170
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.147.235.151
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 188.166.247.114
-  port: "3128"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 52.198.12.221
-  port: "3128"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 57.183.14.102
-  port: "3128"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 34.133.122.144
-  port: "3128"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 13.229.106.113
-  port: "3128"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 13.230.225.249
-  port: "3128"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 194.180.237.182
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 154.6.23.242
-  port: "6709"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 88.218.46.14
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 140.235.0.62
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 212.119.40.20
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.233.209.125
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 217.145.225.48
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.147.235.89
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.0.84
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.233.219.163
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.136.26.23
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 178.20.212.21
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 185.212.115.204
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.136.25.182
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.136.25.117
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.14.99
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 166.88.178.186
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.14.201
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 31.134.6.240
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 45.136.26.244
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 91.132.125.97
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 185.77.223.30
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 64.49.37.40
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 140.235.169.121
-  port: "8085"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 193.233.219.110
   port: "8085"
   country: transparent
   anonymity: transparent
@@ -5743,51 +5753,6 @@
   country: Socks4
   anonymity: Socks4
   type: HTTP/HTTPS
-- ip: 52.188.28.218
-  port: "3128"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 209.97.150.167
-  port: "8080"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 198.199.86.11
-  port: "80"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 35.197.89.213
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 192.73.244.36
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 64.181.240.152
-  port: "3128"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 198.98.48.76
-  port: "31280"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 44.215.73.168
-  port: "8118"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 4.149.153.123
-  port: "3128"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
 - ip: 32.223.6.94
   port: "80"
   country: anonymous
@@ -5798,40 +5763,40 @@
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 167.71.177.246
-  port: "2525"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 173.44.175.230
-  port: "3128"
+- ip: 192.73.244.36
+  port: "80"
   country: elite proxy
   anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 104.206.98.154
-  port: "3128"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 192.206.202.1
-  port: "8080"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 23.157.216.157
-  port: "39001"
-  country: transparent
-  anonymity: transparent
   type: HTTP/HTTPS
 - ip: 23.247.136.254
   port: "80"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 149.51.37.177
+- ip: 167.71.177.246
+  port: "2525"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 198.98.48.76
+  port: "31280"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 4.149.153.123
   port: "3128"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 74.62.179.122
+  port: "8080"
   country: transparent
   anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 47.252.29.28
+  port: "11222"
+  country: elite proxy
+  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 198.7.62.199
   port: "3128"
@@ -5843,903 +5808,948 @@
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
+- ip: 47.251.87.199
+  port: "9098"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 108.170.12.13
+  port: "80"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 52.188.28.218
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 35.197.89.213
+  port: "80"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 44.215.73.168
+  port: "8118"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 198.49.68.80
+  port: "80"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 208.67.28.29
+  port: "58090"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
 - ip: 18.188.141.177
   port: "1145"
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
-- ip: 45.22.209.157
+- ip: 104.206.98.154
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 34.216.224.9
+  port: "40715"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 208.102.24.225
   port: "8888"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 44.232.235.167
+  port: "3128"
+  country: elite proxy
+  anonymity: elite proxy
+  type: HTTP/HTTPS
+- ip: 198.199.86.11
+  port: "80"
   country: anonymous
   anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 5.78.67.134
-  port: "8088"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 162.241.207.217
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 138.197.68.35
-  port: "4857"
-  country: anonymous
-  anonymity: anonymous
-  type: HTTP/HTTPS
-- ip: 47.90.149.238
-  port: "4145"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 68.183.143.134
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 167.99.236.14
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 162.240.19.30
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 159.65.245.255
   port: "80"
   country: elite proxy
   anonymity: elite proxy
   type: HTTP/HTTPS
-- ip: 34.122.187.196
-  port: "80"
-  country: elite proxy
-  anonymity: elite proxy
-  type: HTTP/HTTPS
-- ip: 23.27.75.2
-  port: "6082"
+- ip: 34.42.72.150
+  port: "3128"
   country: transparent
   anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 209.126.84.232
+  port: "8888"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 164.90.155.209
+  port: "3128"
+  country: anonymous
+  anonymity: anonymous
+  type: HTTP/HTTPS
+- ip: 20.169.214.248
+  port: "3128"
+  country: elite proxy
+  anonymity: elite proxy
   type: HTTP/HTTPS
 - ip: 138.68.60.8
   port: "80"
   country: anonymous
   anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 47.179.58.156
-  port: "8080"
-  country: transparent
-  anonymity: transparent
-  type: HTTP/HTTPS
-- ip: 74.48.187.179
+- ip: 44.199.110.54
   port: "3128"
-  country: elite proxy
-  anonymity: elite proxy
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 209.97.150.167
+  port: "8080"
+  country: anonymous
+  anonymity: anonymous
   type: HTTP/HTTPS
-- ip: 199.96.164.172
+- ip: 37.72.141.157
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.38.158
-  port: "8085"
+- ip: 166.88.169.70
+  port: "6677"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.165.246
+- ip: 199.96.165.191
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.210.17
+- ip: 94.154.113.169
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 34.48.171.130
-  port: "33080"
-  country: elite proxy
-  anonymity: elite proxy
+- ip: 192.177.103.229
+  port: "6722"
+  country: transparent
+  anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.166.186
+- ip: 45.147.232.87
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.56.20.86
+- ip: 83.97.119.244
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.147.233.92
+- ip: 140.235.170.116
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 176.126.111.50
+- ip: 167.253.18.125
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.92.133
+- ip: 193.233.220.179
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.36.60
+- ip: 193.233.222.68
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.95.39
+- ip: 45.147.235.228
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.171.102
+- ip: 212.18.127.15
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.166.246
+- ip: 193.56.20.80
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.170.146
+- ip: 194.180.232.11
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.147.234.163
+- ip: 199.96.167.110
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.166.214
+- ip: 45.159.23.28
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.1.207
+- ip: 167.253.49.252
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.136.27.11
+- ip: 212.18.113.192
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 209.50.168.140
-  port: "3129"
+- ip: 212.18.127.88
+  port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 166.88.171.31
+- ip: 91.247.163.95
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.18.154
+- ip: 64.49.36.221
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.210.48
+- ip: 193.233.220.205
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.39.168
+- ip: 23.230.223.180
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 166.88.172.60
+- ip: 199.96.164.61
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.68
+- ip: 193.202.16.164
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.49.109
+- ip: 91.246.51.71
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.218.249
+- ip: 45.136.27.22
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.124.67
+- ip: 37.72.141.238
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.171.118
+- ip: 193.233.217.192
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.92.198
+- ip: 140.235.171.76
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.125.39
+- ip: 194.180.236.157
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 212.18.113.220
+- ip: 140.235.169.231
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.48.161
+- ip: 91.132.125.64
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.166.125
+- ip: 64.49.38.218
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.222.252
+- ip: 91.132.124.32
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.217.60
+- ip: 167.253.48.206
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.198.146
+- ip: 94.154.113.94
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.218.133
+- ip: 45.147.234.106
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.180.237.167
+- ip: 64.49.39.29
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.65
+- ip: 193.233.221.84
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.31.127.162
+- ip: 167.253.19.111
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.168.15
+- ip: 193.233.218.20
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.42.245.76
+- ip: 140.235.169.36
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.170.33
+- ip: 140.235.168.216
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 83.97.119.39
+- ip: 193.233.209.99
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.180.232.165
+- ip: 167.253.48.140
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.170.98
+- ip: 167.253.48.154
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.0.32
+- ip: 45.147.233.41
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.3.190
+- ip: 193.31.127.88
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.180.237.172
+- ip: 194.110.150.200
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.159.23.69
+- ip: 140.235.171.253
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.211.104
+- ip: 45.136.25.92
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.198.125
+- ip: 167.253.16.122
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.136.24.166
+- ip: 185.77.220.249
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.167.114
+- ip: 91.132.125.115
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.77.220.177
+- ip: 194.70.234.160
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 23.230.223.129
+- ip: 199.96.165.208
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.48.20
+- ip: 93.177.94.155
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 88.218.46.217
+- ip: 167.253.18.106
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.207.18
+- ip: 91.132.198.27
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.95.172
+- ip: 193.233.211.219
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.180.233.192
+- ip: 37.72.141.121
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.17.45
+- ip: 194.180.236.102
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.246.51.82
+- ip: 93.177.95.40
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.18.96
+- ip: 193.163.207.185
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.124.142
+- ip: 45.147.233.12
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.161
+- ip: 88.218.46.187
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.38.254
+- ip: 193.233.211.152
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 89.19.34.68
+- ip: 45.147.232.48
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.198.51
+- ip: 45.136.24.149
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.94.151
+- ip: 37.72.141.109
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.166.46
+- ip: 193.31.127.41
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 94.154.113.48
+- ip: 167.253.18.101
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.94.24
+- ip: 193.202.16.61
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.168.243
+- ip: 193.233.218.141
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.218.121
+- ip: 194.110.150.15
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 37.72.141.54
+- ip: 185.77.221.74
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.165.89
-  port: "8085"
+- ip: 23.27.196.150
+  port: "6519"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.2.108
+- ip: 91.246.51.174
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.36.62
+- ip: 166.88.178.88
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.36.89
+- ip: 45.147.235.151
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.37.202
-  port: "8085"
+- ip: 34.133.122.144
+  port: "3128"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.1.47
+- ip: 194.180.237.182
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.124.225
-  port: "8085"
+- ip: 154.6.23.242
+  port: "6709"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.247.163.162
+- ip: 88.218.46.14
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.92.228
+- ip: 140.235.0.62
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 83.97.119.24
+- ip: 193.233.209.125
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.39.208
+- ip: 45.147.235.89
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 37.72.141.35
+- ip: 193.233.219.163
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.208.253
+- ip: 45.136.26.23
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.1.234
+- ip: 185.212.115.204
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.38.182
+- ip: 45.136.25.182
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.17.246
+- ip: 45.136.25.117
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.49.74
+- ip: 166.88.178.186
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.31.127.152
+- ip: 45.136.26.244
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.208.190
+- ip: 91.132.125.97
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.77.220.243
+- ip: 185.77.223.30
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.94.122
+- ip: 64.49.37.40
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.136.25.241
+- ip: 140.235.169.121
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.212.115.152
+- ip: 193.233.219.110
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.171.221
+- ip: 45.147.232.109
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 83.97.119.160
+- ip: 140.235.0.199
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.95.224
+- ip: 166.88.172.134
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.180.232.179
+- ip: 37.72.141.131
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 89.19.34.80
+- ip: 193.233.211.206
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.141.128.137
+- ip: 91.246.51.232
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.56.20.89
+- ip: 212.18.113.66
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.136.26.76
+- ip: 93.177.95.16
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 88.218.46.239
+- ip: 93.177.94.232
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.159.23.247
+- ip: 45.159.23.60
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 83.97.119.117
+- ip: 167.253.19.171
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.92.25
-  port: "8085"
+- ip: 192.198.117.98
+  port: "7691"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.124.47
+- ip: 185.77.221.72
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.94
-  port: "8085"
+- ip: 149.57.17.159
+  port: "5627"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.77.221.111
+- ip: 199.96.165.214
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.79
+- ip: 194.180.232.42
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.167.76
+- ip: 194.180.237.212
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 212.18.113.204
+- ip: 91.246.51.238
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 176.126.111.130
-  port: "8085"
+- ip: 173.0.9.34
+  port: "5617"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 167.253.18.193
+- ip: 166.88.178.127
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.247.163.203
+- ip: 83.97.119.190
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.180.237.117
-  port: "8085"
+- ip: 38.154.217.151
+  port: "7342"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.147.232.84
+- ip: 37.72.141.180
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 166.88.172.128
+- ip: 193.163.207.199
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.217.238
+- ip: 212.18.127.58
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 67.227.37.76
-  port: "5618"
+- ip: 199.96.167.123
+  port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.222.99
+- ip: 140.235.169.100
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.218.100
+- ip: 194.70.234.76
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.212.115.64
+- ip: 193.233.211.50
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 166.88.172.98
-  port: "8085"
+- ip: 198.46.241.115
+  port: "6650"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.147.234.103
-  port: "8085"
+- ip: 173.211.8.172
+  port: "6284"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 199.96.165.141
+- ip: 193.233.208.240
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 212.18.127.106
+- ip: 91.247.163.198
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.222.196
+- ip: 140.235.0.87
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 94.154.113.15
+- ip: 91.132.125.241
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.207.42
+- ip: 167.253.18.181
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.246.51.162
+- ip: 167.253.48.22
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.77.220.187
+- ip: 167.253.17.209
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.168.24
+- ip: 91.132.124.244
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 64.49.36.176
+- ip: 194.99.25.87
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.198.253
+- ip: 140.235.170.129
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 93.177.95.20
+- ip: 193.56.20.226
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.218.188
-  port: "8085"
+- ip: 67.227.37.218
+  port: "5760"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.202.16.218
+- ip: 45.159.23.237
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.211.195
+- ip: 167.253.48.159
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 45.147.234.73
+- ip: 88.218.46.59
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 37.72.141.65
+- ip: 193.233.222.151
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.46
-  port: "8085"
+- ip: 216.10.27.164
+  port: "6842"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 37.72.141.168
+- ip: 193.233.211.117
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 194.70.234.210
+- ip: 45.159.23.97
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.209.154
+- ip: 62.204.49.138
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.220.254
-  port: "8085"
+- ip: 154.6.116.34
+  port: "6003"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 185.77.223.83
+- ip: 193.233.221.245
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.198.218
-  port: "8085"
+- ip: 104.238.38.235
+  port: "6503"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 212.42.203.18
+  port: "6066"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.2.174
+- ip: 193.233.218.132
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 91.132.124.15
+- ip: 199.96.167.156
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.169.130
+- ip: 193.233.210.66
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.221.157
+- ip: 64.49.36.155
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 94.154.113.125
+- ip: 193.233.222.51
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.163.92.64
+- ip: 94.154.113.122
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.202.16.118
+- ip: 88.218.46.207
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.233.209.143
+- ip: 45.136.27.37
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 193.56.20.196
+- ip: 45.159.23.151
   port: "8085"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
-- ip: 140.235.170.15
+- ip: 91.247.163.75
   port: "8085"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 216.74.115.191
+  port: "6785"
+  country: transparent
+  anonymity: transparent
+  type: HTTP/HTTPS
+- ip: 50.114.98.5
+  port: "5489"
   country: transparent
   anonymity: transparent
   type: HTTP/HTTPS
@@ -8244,162 +8254,192 @@
   anonymity: anonymous
   type: HTTP/HTTPS
 - country: United Kingdom of Great Britain and Northern Ireland
-  ip: 185.193.29.88
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Russian Federation
-  ip: 45.67.215.117
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 104.19.166.231
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 104.16.114.25
+  ip: 185.193.30.232
   port: "80"
   type: http
   anonymity: elite
 - country: Canada
-  ip: 172.67.192.45
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Russian Federation
-  ip: 185.174.138.50
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 216.205.52.251
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 104.17.123.127
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United Kingdom of Great Britain and Northern Ireland
-  ip: 45.12.31.248
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 104.25.1.41
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 159.112.235.217
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Canada
-  ip: 188.114.96.43
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Indonesia
-  ip: 46.254.92.55
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Canada
-  ip: 108.162.192.125
+  ip: 108.162.192.35
   port: "80"
   type: http
   anonymity: elite
 - country: Belize
-  ip: 45.131.6.23
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 170.114.46.170
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 104.17.117.212
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Spain
-  ip: 185.18.250.29
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 69.84.182.119
-  port: "80"
-  type: http
-  anonymity: elite
-- country: Switzerland
-  ip: 84.39.112.144
-  port: "3128"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 199.34.230.126
-  port: "80"
-  type: http
-  anonymity: elite
-- country: United States of America
-  ip: 104.24.168.252
+  ip: 45.131.6.12
   port: "80"
   type: http
   anonymity: elite
 - country: United Kingdom of Great Britain and Northern Ireland
-  ip: 45.85.118.128
+  ip: 185.193.28.65
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 104.25.0.50
+  ip: 160.153.0.159
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 104.16.7.80
+  ip: 104.17.67.152
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 170.114.45.124
+  ip: 104.19.75.150
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Canada
+  ip: 172.67.215.245
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 160.153.0.211
+  ip: 104.19.173.246
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 108.162.198.107
+  ip: 104.19.7.212
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Singapore
+  ip: 154.81.141.108
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 104.27.20.139
+  ip: 104.25.0.125
   port: "80"
   type: http
   anonymity: elite
-- country: Indonesia
-  ip: 46.254.92.168
+- country: Türkiye
+  ip: 38.156.75.39
+  port: "8080"
+  type: http
+  anonymity: transparent
+- country: Canada
+  ip: 173.245.49.33
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Canada
+  ip: 172.67.191.165
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 104.21.230.49
+  ip: 104.21.8.203
   port: "80"
   type: http
   anonymity: elite
 - country: United States of America
-  ip: 104.21.91.71
+  ip: 104.17.211.196
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 199.34.229.110
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Canada
+  ip: 172.64.149.2
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 159.112.235.17
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 69.84.182.252
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.26.6.221
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.24.163.145
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 159.112.235.246
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Russian Federation
+  ip: 31.12.75.44
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.18.179.32
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Netherlands
+  ip: 188.42.89.192
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.17.157.220
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.18.4.45
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Singapore
+  ip: 206.238.238.206
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Canada
+  ip: 172.67.215.205
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.19.34.172
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 108.162.198.96
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Canada
+  ip: 172.67.189.206
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.16.105.243
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United States of America
+  ip: 104.18.40.239
+  port: "80"
+  type: http
+  anonymity: elite
+- country: Netherlands
+  ip: 188.42.89.214
+  port: "80"
+  type: http
+  anonymity: elite
+- country: United Kingdom of Great Britain and Northern Ireland
+  ip: 45.85.118.158
   port: "80"
   type: http
   anonymity: elite
